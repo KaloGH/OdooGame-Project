@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data >
+
+        <record model="ir.cron" forcecreate="True" id="brodoonx.country_cron">
+            <field name="name">Country Cron</field>
+            <field name="model_id" ref="model_brodoonx_country"/>
+            <field name="state">code</field>
+            <field name="code">model.update_population()</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="activity_user_type">specific</field>
+            <field name="doall" eval="False" />
+        </record>
+
+
+        <record model="ir.cron" forcecreate="True" id="brodoonx.cron_players_premium">
+            <field name="name">Brodoonx: Cron Players premium</field>
+            <field name="model_id" ref="model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model.check_premium()</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="activity_user_type">specific</field>
+            <field name="doall" eval="False" />
+        </record>
+
+        <record model="ir.cron" forcecreate="True" id="brodoonx.cron_players_progress_update">
+            <field name="name">Brodoonx: Cron Update Player progress</field>
+            <field name="model_id" ref="model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model.update_players_progress()</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="activity_user_type">specific</field>
+            <field name="doall" eval="False" />
+        </record>
+
+    </data>
+</odoo>

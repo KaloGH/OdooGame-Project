@@ -1,0 +1,68 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.musical_genre_list">
+            <field name="name">Brodoonx Musical Genres</field>
+            <field name="model">brodoonx.musical_genre</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="audience"/>
+                    <field name="songs"/>
+                    <field name="singers"/>
+                    <field name="producers"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.musical_genre_form">
+            <field name="name">Brodoonx Musical Genres Form</field>
+            <field name="model">brodoonx.musical_genre</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Musical Genre Info"></separator>
+                                <field name="name"/>
+                                <field name="audience"/>
+                            </group>
+                            <group>
+                                <notebook>
+                                    <page string="Songs">
+                                        <field name="songs">
+                                            <tree>
+                                                <field name="name" />
+                                                <field name="views" />
+                                            </tree>
+                                        </field>
+                                    </page>
+                                    <page string="Singers">
+                                        <field name="singers">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="age" />
+                                                <field name="level"/>
+                                                <field name="discography" />
+                                            </tree>
+                                        </field>
+                                    </page>
+                                    <page string="Producers">
+                                        <field name="producers">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="age" />
+                                                <field name="level"/>
+                                                <field name="discography" />
+                                            </tree>
+                                        </field>
+                                    </page>
+                                </notebook>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
+    

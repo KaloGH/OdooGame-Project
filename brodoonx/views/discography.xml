@@ -1,0 +1,63 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.discography_list">
+            <field name="name">Brodoonx Discographies</field>
+            <field name="model">brodoonx.discography</field>
+            <field name="arch" type="xml">
+                <tree banner_route="/brodoonx/discography">
+                    <field name="name"/>
+                    <field name="reputation"/>
+                    <field name="budget"/>
+                    <field name="owner"/>
+                    <field name="singers" widget='many2many_tags'/>
+                    <field name="producers" widget='many2many_tags'/>
+                    <field name="songs"/>
+                    <field name="country"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.discography_form">
+            <field name="name">Brodoonx Discographies Form</field>
+            <field name="model">brodoonx.discography</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Discography Info"></separator>
+                                <field name="name"/>
+                                <field name="reputation"/>
+                                <field name="budget"/>
+                                <field name="owner"/>
+                                <field name="country"/>
+
+                            </group>
+
+                            <button name="generate_random_song" type="object" string="Generate random Song" icon="fa-star">
+                            </button>
+                            <group>
+                                <notebook>
+                                    <page string="Artists">
+                                        <field name="singers" widget='many2many_tags'/>
+                                        <field name="producers" widget='many2many_tags'/>
+                                    </page>
+                                    <page string="Songs">
+
+                                        <field name="songs">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="duration" sum="Total Duration"/>
+                                                <field name="views" sum="Total Views"/>
+                                            </tree>
+                                        </field>
+                                    </page>
+                                </notebook>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

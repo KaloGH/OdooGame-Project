@@ -1,0 +1,56 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.battle_wizard_form">
+            <field name="name">Battle wizard form</field>
+            <field name="model">brodoonx.battle_wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="previous" type="object" string="Previous" class="btn btn-secondary" states="2,3,4"/>
+                        <button name="next" type="object" string="Next" class="btn oe_highlight" states="1,2,3"/>
+                        <field name="state" widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <group states="1">
+                            <field name="discography1"/>
+
+                        </group>
+                        <group states="2">
+                            <field name="discography2" />
+                        </group>
+
+                        <group states="3">
+                            <field name="win_result" readonly="True"/>
+                        </group>
+                        <footer>
+                            <button name="create_battle" type="object" string="Save Fight" class="oe_highlight" states="3"/>
+                            <button special="cancel" string="Cancel"/>
+                        </footer>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="brodoonx.fights_list" model="ir.ui.view">
+            <field name="name">Fights list</field>
+            <field name="model">brodoonx.battle</field>
+            <field name="arch" type="xml">
+                <tree banner_route="/brodoonx/battle">
+                    <field name="discography1" string="Player 1" />
+                    <field name="discography2" string="Player 2" />
+                    <field name="win_result" />
+                    <field name="fight_date" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="brodoonx.action_battle_wizard" model="ir.actions.act_window">
+            <field name="name">Launch Battle wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">brodoonx.battle_wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="brodoonx.battle_wizard_form" />
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

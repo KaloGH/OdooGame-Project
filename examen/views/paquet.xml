@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="examen.paquet_tree" model="ir.ui.view">
+            <field name="name">examen.paquet.tree</field>
+            <field name="model">examen.paquet</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="paquet_id"/>
+                    <field name="volum" />
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

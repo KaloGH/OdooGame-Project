@@ -1,0 +1,2998 @@
+<odoo>
+    <data>
+        <record id='discography1' model='brodoonx.discography'>
+            <field name='name'>MilKee</field>
+            <field name='budget'>259514</field>
+            <field name='owner' ref='brodoonx.player370'></field>
+            <field name='country' ref='brodoonx.country162'></field>
+        </record>
+        <record id='discography2' model='brodoonx.discography'>
+            <field name='name'>MyrHon</field>
+            <field name='budget'>360081</field>
+            <field name='owner' ref='brodoonx.player147'></field>
+            <field name='country' ref='brodoonx.country185'></field>
+        </record>
+        <record id='discography3' model='brodoonx.discography'>
+            <field name='name'>KriWei</field>
+            <field name='budget'>764815</field>
+            <field name='owner' ref='brodoonx.player28'></field>
+            <field name='country' ref='brodoonx.country201'></field>
+        </record>
+        <record id='discography4' model='brodoonx.discography'>
+            <field name='name'>CecZam</field>
+            <field name='budget'>296391</field>
+            <field name='owner' ref='brodoonx.player434'></field>
+            <field name='country' ref='brodoonx.country219'></field>
+        </record>
+        <record id='discography5' model='brodoonx.discography'>
+            <field name='name'>DeaHou</field>
+            <field name='budget'>963794</field>
+            <field name='owner' ref='brodoonx.player163'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography6' model='brodoonx.discography'>
+            <field name='name'>ArdHer</field>
+            <field name='budget'>281169</field>
+            <field name='owner' ref='brodoonx.player145'></field>
+            <field name='country' ref='brodoonx.country151'></field>
+        </record>
+        <record id='discography7' model='brodoonx.discography'>
+            <field name='name'>TraFil</field>
+            <field name='budget'>960006</field>
+            <field name='owner' ref='brodoonx.player494'></field>
+            <field name='country' ref='brodoonx.country133'></field>
+        </record>
+        <record id='discography8' model='brodoonx.discography'>
+            <field name='name'>CasDor</field>
+            <field name='budget'>429518</field>
+            <field name='owner' ref='brodoonx.player386'></field>
+            <field name='country' ref='brodoonx.country21'></field>
+        </record>
+        <record id='discography9' model='brodoonx.discography'>
+            <field name='name'>BeeElo</field>
+            <field name='budget'>204549</field>
+            <field name='owner' ref='brodoonx.player158'></field>
+            <field name='country' ref='brodoonx.country206'></field>
+        </record>
+        <record id='discography10' model='brodoonx.discography'>
+            <field name='name'>ElfWal</field>
+            <field name='budget'>575909</field>
+            <field name='owner' ref='brodoonx.player209'></field>
+            <field name='country' ref='brodoonx.country153'></field>
+        </record>
+        <record id='discography11' model='brodoonx.discography'>
+            <field name='name'>LanMon</field>
+            <field name='budget'>147659</field>
+            <field name='owner' ref='brodoonx.player456'></field>
+            <field name='country' ref='brodoonx.country55'></field>
+        </record>
+        <record id='discography12' model='brodoonx.discography'>
+            <field name='name'>AmeAgl</field>
+            <field name='budget'>883436</field>
+            <field name='owner' ref='brodoonx.player404'></field>
+            <field name='country' ref='brodoonx.country116'></field>
+        </record>
+        <record id='discography13' model='brodoonx.discography'>
+            <field name='name'>AnePap</field>
+            <field name='budget'>778442</field>
+            <field name='owner' ref='brodoonx.player70'></field>
+            <field name='country' ref='brodoonx.country209'></field>
+        </record>
+        <record id='discography14' model='brodoonx.discography'>
+            <field name='name'>LibWes</field>
+            <field name='budget'>979294</field>
+            <field name='owner' ref='brodoonx.player428'></field>
+            <field name='country' ref='brodoonx.country201'></field>
+        </record>
+        <record id='discography15' model='brodoonx.discography'>
+            <field name='name'>TerWen</field>
+            <field name='budget'>310470</field>
+            <field name='owner' ref='brodoonx.player207'></field>
+            <field name='country' ref='brodoonx.country96'></field>
+        </record>
+        <record id='discography16' model='brodoonx.discography'>
+            <field name='name'>CheSan</field>
+            <field name='budget'>188958</field>
+            <field name='owner' ref='brodoonx.player468'></field>
+            <field name='country' ref='brodoonx.country81'></field>
+        </record>
+        <record id='discography17' model='brodoonx.discography'>
+            <field name='name'>WenClo</field>
+            <field name='budget'>546051</field>
+            <field name='owner' ref='brodoonx.player324'></field>
+            <field name='country' ref='brodoonx.country26'></field>
+        </record>
+        <record id='discography18' model='brodoonx.discography'>
+            <field name='name'>CatPop</field>
+            <field name='budget'>368367</field>
+            <field name='owner' ref='brodoonx.player339'></field>
+            <field name='country' ref='brodoonx.country133'></field>
+        </record>
+        <record id='discography19' model='brodoonx.discography'>
+            <field name='name'>KryCor</field>
+            <field name='budget'>40135</field>
+            <field name='owner' ref='brodoonx.player424'></field>
+            <field name='country' ref='brodoonx.country145'></field>
+        </record>
+        <record id='discography20' model='brodoonx.discography'>
+            <field name='name'>DarShi</field>
+            <field name='budget'>163833</field>
+            <field name='owner' ref='brodoonx.player82'></field>
+            <field name='country' ref='brodoonx.country44'></field>
+        </record>
+        <record id='discography21' model='brodoonx.discography'>
+            <field name='name'>KorMil</field>
+            <field name='budget'>200107</field>
+            <field name='owner' ref='brodoonx.player270'></field>
+            <field name='country' ref='brodoonx.country23'></field>
+        </record>
+        <record id='discography22' model='brodoonx.discography'>
+            <field name='name'>LauMcL</field>
+            <field name='budget'>653947</field>
+            <field name='owner' ref='brodoonx.player158'></field>
+            <field name='country' ref='brodoonx.country41'></field>
+        </record>
+        <record id='discography23' model='brodoonx.discography'>
+            <field name='name'>MinLiv</field>
+            <field name='budget'>106782</field>
+            <field name='owner' ref='brodoonx.player448'></field>
+            <field name='country' ref='brodoonx.country153'></field>
+        </record>
+        <record id='discography24' model='brodoonx.discography'>
+            <field name='name'>FarMar</field>
+            <field name='budget'>145737</field>
+            <field name='owner' ref='brodoonx.player51'></field>
+            <field name='country' ref='brodoonx.country58'></field>
+        </record>
+        <record id='discography25' model='brodoonx.discography'>
+            <field name='name'>FreCim</field>
+            <field name='budget'>54447</field>
+            <field name='owner' ref='brodoonx.player18'></field>
+            <field name='country' ref='brodoonx.country220'></field>
+        </record>
+        <record id='discography26' model='brodoonx.discography'>
+            <field name='name'>MalKoz</field>
+            <field name='budget'>439703</field>
+            <field name='owner' ref='brodoonx.player370'></field>
+            <field name='country' ref='brodoonx.country183'></field>
+        </record>
+        <record id='discography27' model='brodoonx.discography'>
+            <field name='name'>MelTri</field>
+            <field name='budget'>592792</field>
+            <field name='owner' ref='brodoonx.player318'></field>
+            <field name='country' ref='brodoonx.country10'></field>
+        </record>
+        <record id='discography28' model='brodoonx.discography'>
+            <field name='name'>UlrMer</field>
+            <field name='budget'>298802</field>
+            <field name='owner' ref='brodoonx.player66'></field>
+            <field name='country' ref='brodoonx.country57'></field>
+        </record>
+        <record id='discography29' model='brodoonx.discography'>
+            <field name='name'>CriBri</field>
+            <field name='budget'>506858</field>
+            <field name='owner' ref='brodoonx.player86'></field>
+            <field name='country' ref='brodoonx.country36'></field>
+        </record>
+        <record id='discography30' model='brodoonx.discography'>
+            <field name='name'>MatJoh</field>
+            <field name='budget'>715526</field>
+            <field name='owner' ref='brodoonx.player107'></field>
+            <field name='country' ref='brodoonx.country59'></field>
+        </record>
+        <record id='discography31' model='brodoonx.discography'>
+            <field name='name'>DamYam</field>
+            <field name='budget'>951522</field>
+            <field name='owner' ref='brodoonx.player244'></field>
+            <field name='country' ref='brodoonx.country7'></field>
+        </record>
+        <record id='discography32' model='brodoonx.discography'>
+            <field name='name'>JacSam</field>
+            <field name='budget'>559087</field>
+            <field name='owner' ref='brodoonx.player259'></field>
+            <field name='country' ref='brodoonx.country202'></field>
+        </record>
+        <record id='discography33' model='brodoonx.discography'>
+            <field name='name'>MarWil</field>
+            <field name='budget'>345881</field>
+            <field name='owner' ref='brodoonx.player485'></field>
+            <field name='country' ref='brodoonx.country177'></field>
+        </record>
+        <record id='discography34' model='brodoonx.discography'>
+            <field name='name'>StaAft</field>
+            <field name='budget'>23283</field>
+            <field name='owner' ref='brodoonx.player294'></field>
+            <field name='country' ref='brodoonx.country44'></field>
+        </record>
+        <record id='discography35' model='brodoonx.discography'>
+            <field name='name'>CasSim</field>
+            <field name='budget'>371613</field>
+            <field name='owner' ref='brodoonx.player350'></field>
+            <field name='country' ref='brodoonx.country165'></field>
+        </record>
+        <record id='discography36' model='brodoonx.discography'>
+            <field name='name'>HedVel</field>
+            <field name='budget'>114597</field>
+            <field name='owner' ref='brodoonx.player4'></field>
+            <field name='country' ref='brodoonx.country4'></field>
+        </record>
+        <record id='discography37' model='brodoonx.discography'>
+            <field name='name'>CarAbe</field>
+            <field name='budget'>311660</field>
+            <field name='owner' ref='brodoonx.player498'></field>
+            <field name='country' ref='brodoonx.country14'></field>
+        </record>
+        <record id='discography38' model='brodoonx.discography'>
+            <field name='name'>BeeMan</field>
+            <field name='budget'>484713</field>
+            <field name='owner' ref='brodoonx.player12'></field>
+            <field name='country' ref='brodoonx.country141'></field>
+        </record>
+        <record id='discography39' model='brodoonx.discography'>
+            <field name='name'>MicNic</field>
+            <field name='budget'>462360</field>
+            <field name='owner' ref='brodoonx.player417'></field>
+            <field name='country' ref='brodoonx.country66'></field>
+        </record>
+        <record id='discography40' model='brodoonx.discography'>
+            <field name='name'>MadTri</field>
+            <field name='budget'>940393</field>
+            <field name='owner' ref='brodoonx.player350'></field>
+            <field name='country' ref='brodoonx.country89'></field>
+        </record>
+        <record id='discography41' model='brodoonx.discography'>
+            <field name='name'>NeiMil</field>
+            <field name='budget'>425136</field>
+            <field name='owner' ref='brodoonx.player491'></field>
+            <field name='country' ref='brodoonx.country135'></field>
+        </record>
+        <record id='discography42' model='brodoonx.discography'>
+            <field name='name'>FloHor</field>
+            <field name='budget'>552323</field>
+            <field name='owner' ref='brodoonx.player412'></field>
+            <field name='country' ref='brodoonx.country15'></field>
+        </record>
+        <record id='discography43' model='brodoonx.discography'>
+            <field name='name'>BriJac</field>
+            <field name='budget'>106612</field>
+            <field name='owner' ref='brodoonx.player471'></field>
+            <field name='country' ref='brodoonx.country45'></field>
+        </record>
+        <record id='discography44' model='brodoonx.discography'>
+            <field name='name'>BriSeu</field>
+            <field name='budget'>879272</field>
+            <field name='owner' ref='brodoonx.player200'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography45' model='brodoonx.discography'>
+            <field name='name'>AmiGif</field>
+            <field name='budget'>586254</field>
+            <field name='owner' ref='brodoonx.player194'></field>
+            <field name='country' ref='brodoonx.country163'></field>
+        </record>
+        <record id='discography46' model='brodoonx.discography'>
+            <field name='name'>IleHav</field>
+            <field name='budget'>143598</field>
+            <field name='owner' ref='brodoonx.player290'></field>
+            <field name='country' ref='brodoonx.country215'></field>
+        </record>
+        <record id='discography47' model='brodoonx.discography'>
+            <field name='name'>LayInf</field>
+            <field name='budget'>515520</field>
+            <field name='owner' ref='brodoonx.player21'></field>
+            <field name='country' ref='brodoonx.country220'></field>
+        </record>
+        <record id='discography48' model='brodoonx.discography'>
+            <field name='name'>OliKim</field>
+            <field name='budget'>579407</field>
+            <field name='owner' ref='brodoonx.player414'></field>
+            <field name='country' ref='brodoonx.country187'></field>
+        </record>
+        <record id='discography49' model='brodoonx.discography'>
+            <field name='name'>ElfEgb</field>
+            <field name='budget'>35694</field>
+            <field name='owner' ref='brodoonx.player206'></field>
+            <field name='country' ref='brodoonx.country100'></field>
+        </record>
+        <record id='discography50' model='brodoonx.discography'>
+            <field name='name'>HalAma</field>
+            <field name='budget'>397556</field>
+            <field name='owner' ref='brodoonx.player416'></field>
+            <field name='country' ref='brodoonx.country26'></field>
+        </record>
+        <record id='discography51' model='brodoonx.discography'>
+            <field name='name'>FriNic</field>
+            <field name='budget'>604770</field>
+            <field name='owner' ref='brodoonx.player289'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography52' model='brodoonx.discography'>
+            <field name='name'>JudZen</field>
+            <field name='budget'>400551</field>
+            <field name='owner' ref='brodoonx.player177'></field>
+            <field name='country' ref='brodoonx.country31'></field>
+        </record>
+        <record id='discography53' model='brodoonx.discography'>
+            <field name='name'>BerSin</field>
+            <field name='budget'>869155</field>
+            <field name='owner' ref='brodoonx.player1'></field>
+            <field name='country' ref='brodoonx.country71'></field>
+        </record>
+        <record id='discography54' model='brodoonx.discography'>
+            <field name='name'>ElySta</field>
+            <field name='budget'>495633</field>
+            <field name='owner' ref='brodoonx.player464'></field>
+            <field name='country' ref='brodoonx.country59'></field>
+        </record>
+        <record id='discography55' model='brodoonx.discography'>
+            <field name='name'>DesVal</field>
+            <field name='budget'>418452</field>
+            <field name='owner' ref='brodoonx.player471'></field>
+            <field name='country' ref='brodoonx.country82'></field>
+        </record>
+        <record id='discography56' model='brodoonx.discography'>
+            <field name='name'>LetPeg</field>
+            <field name='budget'>56147</field>
+            <field name='owner' ref='brodoonx.player452'></field>
+            <field name='country' ref='brodoonx.country14'></field>
+        </record>
+        <record id='discography57' model='brodoonx.discography'>
+            <field name='name'>DiCos</field>
+            <field name='budget'>289990</field>
+            <field name='owner' ref='brodoonx.player50'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography58' model='brodoonx.discography'>
+            <field name='name'>LorHar</field>
+            <field name='budget'>292853</field>
+            <field name='owner' ref='brodoonx.player227'></field>
+            <field name='country' ref='brodoonx.country129'></field>
+        </record>
+        <record id='discography59' model='brodoonx.discography'>
+            <field name='name'>KarYat</field>
+            <field name='budget'>739712</field>
+            <field name='owner' ref='brodoonx.player484'></field>
+            <field name='country' ref='brodoonx.country1'></field>
+        </record>
+        <record id='discography60' model='brodoonx.discography'>
+            <field name='name'>JasAsh</field>
+            <field name='budget'>567789</field>
+            <field name='owner' ref='brodoonx.player384'></field>
+            <field name='country' ref='brodoonx.country82'></field>
+        </record>
+        <record id='discography61' model='brodoonx.discography'>
+            <field name='name'>OonMel</field>
+            <field name='budget'>567165</field>
+            <field name='owner' ref='brodoonx.player235'></field>
+            <field name='country' ref='brodoonx.country161'></field>
+        </record>
+        <record id='discography62' model='brodoonx.discography'>
+            <field name='name'>RosKro</field>
+            <field name='budget'>512638</field>
+            <field name='owner' ref='brodoonx.player4'></field>
+            <field name='country' ref='brodoonx.country211'></field>
+        </record>
+        <record id='discography63' model='brodoonx.discography'>
+            <field name='name'>ConLub</field>
+            <field name='budget'>367460</field>
+            <field name='owner' ref='brodoonx.player13'></field>
+            <field name='country' ref='brodoonx.country25'></field>
+        </record>
+        <record id='discography64' model='brodoonx.discography'>
+            <field name='name'>SarGer</field>
+            <field name='budget'>597029</field>
+            <field name='owner' ref='brodoonx.player214'></field>
+            <field name='country' ref='brodoonx.country40'></field>
+        </record>
+        <record id='discography65' model='brodoonx.discography'>
+            <field name='name'>JenCat</field>
+            <field name='budget'>169016</field>
+            <field name='owner' ref='brodoonx.player274'></field>
+            <field name='country' ref='brodoonx.country40'></field>
+        </record>
+        <record id='discography66' model='brodoonx.discography'>
+            <field name='name'>CarVel</field>
+            <field name='budget'>913437</field>
+            <field name='owner' ref='brodoonx.player126'></field>
+            <field name='country' ref='brodoonx.country180'></field>
+        </record>
+        <record id='discography67' model='brodoonx.discography'>
+            <field name='name'>DanBal</field>
+            <field name='budget'>661321</field>
+            <field name='owner' ref='brodoonx.player369'></field>
+            <field name='country' ref='brodoonx.country227'></field>
+        </record>
+        <record id='discography68' model='brodoonx.discography'>
+            <field name='name'>ColSte</field>
+            <field name='budget'>612643</field>
+            <field name='owner' ref='brodoonx.player230'></field>
+            <field name='country' ref='brodoonx.country192'></field>
+        </record>
+        <record id='discography69' model='brodoonx.discography'>
+            <field name='name'>CarRei</field>
+            <field name='budget'>773749</field>
+            <field name='owner' ref='brodoonx.player371'></field>
+            <field name='country' ref='brodoonx.country203'></field>
+        </record>
+        <record id='discography70' model='brodoonx.discography'>
+            <field name='name'>ElePay</field>
+            <field name='budget'>895796</field>
+            <field name='owner' ref='brodoonx.player435'></field>
+            <field name='country' ref='brodoonx.country230'></field>
+        </record>
+        <record id='discography71' model='brodoonx.discography'>
+            <field name='name'>EboGil</field>
+            <field name='budget'>303198</field>
+            <field name='owner' ref='brodoonx.player187'></field>
+            <field name='country' ref='brodoonx.country218'></field>
+        </record>
+        <record id='discography72' model='brodoonx.discography'>
+            <field name='name'>DorLea</field>
+            <field name='budget'>791592</field>
+            <field name='owner' ref='brodoonx.player73'></field>
+            <field name='country' ref='brodoonx.country222'></field>
+        </record>
+        <record id='discography73' model='brodoonx.discography'>
+            <field name='name'>GabDon</field>
+            <field name='budget'>472592</field>
+            <field name='owner' ref='brodoonx.player169'></field>
+            <field name='country' ref='brodoonx.country101'></field>
+        </record>
+        <record id='discography74' model='brodoonx.discography'>
+            <field name='name'>AtlHou</field>
+            <field name='budget'>932116</field>
+            <field name='owner' ref='brodoonx.player27'></field>
+            <field name='country' ref='brodoonx.country93'></field>
+        </record>
+        <record id='discography75' model='brodoonx.discography'>
+            <field name='name'>CecBea</field>
+            <field name='budget'>548010</field>
+            <field name='owner' ref='brodoonx.player22'></field>
+            <field name='country' ref='brodoonx.country163'></field>
+        </record>
+        <record id='discography76' model='brodoonx.discography'>
+            <field name='name'>DagEac</field>
+            <field name='budget'>392292</field>
+            <field name='owner' ref='brodoonx.player71'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography77' model='brodoonx.discography'>
+            <field name='name'>AniBre</field>
+            <field name='budget'>685945</field>
+            <field name='owner' ref='brodoonx.player461'></field>
+            <field name='country' ref='brodoonx.country217'></field>
+        </record>
+        <record id='discography78' model='brodoonx.discography'>
+            <field name='name'>CorRub</field>
+            <field name='budget'>978772</field>
+            <field name='owner' ref='brodoonx.player59'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography79' model='brodoonx.discography'>
+            <field name='name'>FidDaw</field>
+            <field name='budget'>482342</field>
+            <field name='owner' ref='brodoonx.player357'></field>
+            <field name='country' ref='brodoonx.country105'></field>
+        </record>
+        <record id='discography80' model='brodoonx.discography'>
+            <field name='name'>SelGar</field>
+            <field name='budget'>406205</field>
+            <field name='owner' ref='brodoonx.player18'></field>
+            <field name='country' ref='brodoonx.country32'></field>
+        </record>
+        <record id='discography81' model='brodoonx.discography'>
+            <field name='name'>JanSam</field>
+            <field name='budget'>914531</field>
+            <field name='owner' ref='brodoonx.player8'></field>
+            <field name='country' ref='brodoonx.country142'></field>
+        </record>
+        <record id='discography82' model='brodoonx.discography'>
+            <field name='name'>VonUlp</field>
+            <field name='budget'>266412</field>
+            <field name='owner' ref='brodoonx.player160'></field>
+            <field name='country' ref='brodoonx.country209'></field>
+        </record>
+        <record id='discography83' model='brodoonx.discography'>
+            <field name='name'>OlwObe</field>
+            <field name='budget'>569639</field>
+            <field name='owner' ref='brodoonx.player464'></field>
+            <field name='country' ref='brodoonx.country141'></field>
+        </record>
+        <record id='discography84' model='brodoonx.discography'>
+            <field name='name'>HilKam</field>
+            <field name='budget'>970134</field>
+            <field name='owner' ref='brodoonx.player260'></field>
+            <field name='country' ref='brodoonx.country170'></field>
+        </record>
+        <record id='discography85' model='brodoonx.discography'>
+            <field name='name'>GabArd</field>
+            <field name='budget'>20070</field>
+            <field name='owner' ref='brodoonx.player172'></field>
+            <field name='country' ref='brodoonx.country54'></field>
+        </record>
+        <record id='discography86' model='brodoonx.discography'>
+            <field name='name'>CouFre</field>
+            <field name='budget'>657677</field>
+            <field name='owner' ref='brodoonx.player390'></field>
+            <field name='country' ref='brodoonx.country194'></field>
+        </record>
+        <record id='discography87' model='brodoonx.discography'>
+            <field name='name'>ChaLav</field>
+            <field name='budget'>871745</field>
+            <field name='owner' ref='brodoonx.player11'></field>
+            <field name='country' ref='brodoonx.country17'></field>
+        </record>
+        <record id='discography88' model='brodoonx.discography'>
+            <field name='name'>WilSan</field>
+            <field name='budget'>718371</field>
+            <field name='owner' ref='brodoonx.player379'></field>
+            <field name='country' ref='brodoonx.country220'></field>
+        </record>
+        <record id='discography89' model='brodoonx.discography'>
+            <field name='name'>KenCat</field>
+            <field name='budget'>984398</field>
+            <field name='owner' ref='brodoonx.player458'></field>
+            <field name='country' ref='brodoonx.country18'></field>
+        </record>
+        <record id='discography90' model='brodoonx.discography'>
+            <field name='name'>IleMar</field>
+            <field name='budget'>566541</field>
+            <field name='owner' ref='brodoonx.player249'></field>
+            <field name='country' ref='brodoonx.country22'></field>
+        </record>
+        <record id='discography91' model='brodoonx.discography'>
+            <field name='name'>YetHor</field>
+            <field name='budget'>825699</field>
+            <field name='owner' ref='brodoonx.player135'></field>
+            <field name='country' ref='brodoonx.country62'></field>
+        </record>
+        <record id='discography92' model='brodoonx.discography'>
+            <field name='name'>SusMer</field>
+            <field name='budget'>935904</field>
+            <field name='owner' ref='brodoonx.player320'></field>
+            <field name='country' ref='brodoonx.country44'></field>
+        </record>
+        <record id='discography93' model='brodoonx.discography'>
+            <field name='name'>ReeKor</field>
+            <field name='budget'>936327</field>
+            <field name='owner' ref='brodoonx.player379'></field>
+            <field name='country' ref='brodoonx.country231'></field>
+        </record>
+        <record id='discography94' model='brodoonx.discography'>
+            <field name='name'>MorQui</field>
+            <field name='budget'>623688</field>
+            <field name='owner' ref='brodoonx.player475'></field>
+            <field name='country' ref='brodoonx.country101'></field>
+        </record>
+        <record id='discography95' model='brodoonx.discography'>
+            <field name='name'>MarDur</field>
+            <field name='budget'>682120</field>
+            <field name='owner' ref='brodoonx.player418'></field>
+            <field name='country' ref='brodoonx.country162'></field>
+        </record>
+        <record id='discography96' model='brodoonx.discography'>
+            <field name='name'>TobHan</field>
+            <field name='budget'>711514</field>
+            <field name='owner' ref='brodoonx.player286'></field>
+            <field name='country' ref='brodoonx.country110'></field>
+        </record>
+        <record id='discography97' model='brodoonx.discography'>
+            <field name='name'>DacLov</field>
+            <field name='budget'>251137</field>
+            <field name='owner' ref='brodoonx.player187'></field>
+            <field name='country' ref='brodoonx.country141'></field>
+        </record>
+        <record id='discography98' model='brodoonx.discography'>
+            <field name='name'>KalZuz</field>
+            <field name='budget'>825500</field>
+            <field name='owner' ref='brodoonx.player403'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography99' model='brodoonx.discography'>
+            <field name='name'>CalQue</field>
+            <field name='budget'>114937</field>
+            <field name='owner' ref='brodoonx.player147'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography100' model='brodoonx.discography'>
+            <field name='name'>NicSea</field>
+            <field name='budget'>706010</field>
+            <field name='owner' ref='brodoonx.player154'></field>
+            <field name='country' ref='brodoonx.country137'></field>
+        </record>
+        <record id='discography101' model='brodoonx.discography'>
+            <field name='name'>MirSwi</field>
+            <field name='budget'>27739</field>
+            <field name='owner' ref='brodoonx.player345'></field>
+            <field name='country' ref='brodoonx.country160'></field>
+        </record>
+        <record id='discography102' model='brodoonx.discography'>
+            <field name='name'>ArdNar</field>
+            <field name='budget'>293321</field>
+            <field name='owner' ref='brodoonx.player380'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography103' model='brodoonx.discography'>
+            <field name='name'>YvoNel</field>
+            <field name='budget'>704139</field>
+            <field name='owner' ref='brodoonx.player409'></field>
+            <field name='country' ref='brodoonx.country147'></field>
+        </record>
+        <record id='discography104' model='brodoonx.discography'>
+            <field name='name'>PetVen</field>
+            <field name='budget'>622305</field>
+            <field name='owner' ref='brodoonx.player415'></field>
+            <field name='country' ref='brodoonx.country12'></field>
+        </record>
+        <record id='discography105' model='brodoonx.discography'>
+            <field name='name'>LatIlk</field>
+            <field name='budget'>294467</field>
+            <field name='owner' ref='brodoonx.player259'></field>
+            <field name='country' ref='brodoonx.country84'></field>
+        </record>
+        <record id='discography106' model='brodoonx.discography'>
+            <field name='name'>TraMad</field>
+            <field name='budget'>992940</field>
+            <field name='owner' ref='brodoonx.player224'></field>
+            <field name='country' ref='brodoonx.country91'></field>
+        </record>
+        <record id='discography107' model='brodoonx.discography'>
+            <field name='name'>TerMer</field>
+            <field name='budget'>595401</field>
+            <field name='owner' ref='brodoonx.player129'></field>
+            <field name='country' ref='brodoonx.country185'></field>
+        </record>
+        <record id='discography108' model='brodoonx.discography'>
+            <field name='name'>CheGun</field>
+            <field name='budget'>820273</field>
+            <field name='owner' ref='brodoonx.player404'></field>
+            <field name='country' ref='brodoonx.country185'></field>
+        </record>
+        <record id='discography109' model='brodoonx.discography'>
+            <field name='name'>IveJor</field>
+            <field name='budget'>579360</field>
+            <field name='owner' ref='brodoonx.player479'></field>
+            <field name='country' ref='brodoonx.country228'></field>
+        </record>
+        <record id='discography110' model='brodoonx.discography'>
+            <field name='name'>GeoWes</field>
+            <field name='budget'>898944</field>
+            <field name='owner' ref='brodoonx.player46'></field>
+            <field name='country' ref='brodoonx.country181'></field>
+        </record>
+        <record id='discography111' model='brodoonx.discography'>
+            <field name='name'>AdeBer</field>
+            <field name='budget'>313130</field>
+            <field name='owner' ref='brodoonx.player481'></field>
+            <field name='country' ref='brodoonx.country183'></field>
+        </record>
+        <record id='discography112' model='brodoonx.discography'>
+            <field name='name'>GerRos</field>
+            <field name='budget'>658775</field>
+            <field name='owner' ref='brodoonx.player207'></field>
+            <field name='country' ref='brodoonx.country51'></field>
+        </record>
+        <record id='discography113' model='brodoonx.discography'>
+            <field name='name'>KarLaR</field>
+            <field name='budget'>532376</field>
+            <field name='owner' ref='brodoonx.player173'></field>
+            <field name='country' ref='brodoonx.country48'></field>
+        </record>
+        <record id='discography114' model='brodoonx.discography'>
+            <field name='name'>AlyCla</field>
+            <field name='budget'>521206</field>
+            <field name='owner' ref='brodoonx.player40'></field>
+            <field name='country' ref='brodoonx.country204'></field>
+        </record>
+        <record id='discography115' model='brodoonx.discography'>
+            <field name='name'>AynKry</field>
+            <field name='budget'>438193</field>
+            <field name='owner' ref='brodoonx.player255'></field>
+            <field name='country' ref='brodoonx.country154'></field>
+        </record>
+        <record id='discography116' model='brodoonx.discography'>
+            <field name='name'>DalMad</field>
+            <field name='budget'>715769</field>
+            <field name='owner' ref='brodoonx.player11'></field>
+            <field name='country' ref='brodoonx.country85'></field>
+        </record>
+        <record id='discography117' model='brodoonx.discography'>
+            <field name='name'>TrePar</field>
+            <field name='budget'>895236</field>
+            <field name='owner' ref='brodoonx.player315'></field>
+            <field name='country' ref='brodoonx.country203'></field>
+        </record>
+        <record id='discography118' model='brodoonx.discography'>
+            <field name='name'>ZsaMer</field>
+            <field name='budget'>789587</field>
+            <field name='owner' ref='brodoonx.player157'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography119' model='brodoonx.discography'>
+            <field name='name'>UlrGar</field>
+            <field name='budget'>980380</field>
+            <field name='owner' ref='brodoonx.player11'></field>
+            <field name='country' ref='brodoonx.country197'></field>
+        </record>
+        <record id='discography120' model='brodoonx.discography'>
+            <field name='name'>OlwAlw</field>
+            <field name='budget'>494279</field>
+            <field name='owner' ref='brodoonx.player21'></field>
+            <field name='country' ref='brodoonx.country42'></field>
+        </record>
+        <record id='discography121' model='brodoonx.discography'>
+            <field name='name'>CamDow</field>
+            <field name='budget'>530642</field>
+            <field name='owner' ref='brodoonx.player171'></field>
+            <field name='country' ref='brodoonx.country11'></field>
+        </record>
+        <record id='discography122' model='brodoonx.discography'>
+            <field name='name'>EleSer</field>
+            <field name='budget'>672735</field>
+            <field name='owner' ref='brodoonx.player241'></field>
+            <field name='country' ref='brodoonx.country100'></field>
+        </record>
+        <record id='discography123' model='brodoonx.discography'>
+            <field name='name'>OttPen</field>
+            <field name='budget'>54703</field>
+            <field name='owner' ref='brodoonx.player391'></field>
+            <field name='country' ref='brodoonx.country38'></field>
+        </record>
+        <record id='discography124' model='brodoonx.discography'>
+            <field name='name'>ElkJan</field>
+            <field name='budget'>455322</field>
+            <field name='owner' ref='brodoonx.player293'></field>
+            <field name='country' ref='brodoonx.country85'></field>
+        </record>
+        <record id='discography125' model='brodoonx.discography'>
+            <field name='name'>IraEmm</field>
+            <field name='budget'>490481</field>
+            <field name='owner' ref='brodoonx.player434'></field>
+            <field name='country' ref='brodoonx.country30'></field>
+        </record>
+        <record id='discography126' model='brodoonx.discography'>
+            <field name='name'>BelJua</field>
+            <field name='budget'>951192</field>
+            <field name='owner' ref='brodoonx.player165'></field>
+            <field name='country' ref='brodoonx.country56'></field>
+        </record>
+        <record id='discography127' model='brodoonx.discography'>
+            <field name='name'>EmmBar</field>
+            <field name='budget'>597557</field>
+            <field name='owner' ref='brodoonx.player310'></field>
+            <field name='country' ref='brodoonx.country124'></field>
+        </record>
+        <record id='discography128' model='brodoonx.discography'>
+            <field name='name'>SamPhi</field>
+            <field name='budget'>53095</field>
+            <field name='owner' ref='brodoonx.player245'></field>
+            <field name='country' ref='brodoonx.country43'></field>
+        </record>
+        <record id='discography129' model='brodoonx.discography'>
+            <field name='name'>SasTam</field>
+            <field name='budget'>660996</field>
+            <field name='owner' ref='brodoonx.player342'></field>
+            <field name='country' ref='brodoonx.country47'></field>
+        </record>
+        <record id='discography130' model='brodoonx.discography'>
+            <field name='name'>DesRoc</field>
+            <field name='budget'>969643</field>
+            <field name='owner' ref='brodoonx.player117'></field>
+            <field name='country' ref='brodoonx.country19'></field>
+        </record>
+        <record id='discography131' model='brodoonx.discography'>
+            <field name='name'>AurTys</field>
+            <field name='budget'>488445</field>
+            <field name='owner' ref='brodoonx.player293'></field>
+            <field name='country' ref='brodoonx.country77'></field>
+        </record>
+        <record id='discography132' model='brodoonx.discography'>
+            <field name='name'>ChaAja</field>
+            <field name='budget'>502522</field>
+            <field name='owner' ref='brodoonx.player130'></field>
+            <field name='country' ref='brodoonx.country112'></field>
+        </record>
+        <record id='discography133' model='brodoonx.discography'>
+            <field name='name'>ShaWil</field>
+            <field name='budget'>551773</field>
+            <field name='owner' ref='brodoonx.player1'></field>
+            <field name='country' ref='brodoonx.country65'></field>
+        </record>
+        <record id='discography134' model='brodoonx.discography'>
+            <field name='name'>KarMic</field>
+            <field name='budget'>917578</field>
+            <field name='owner' ref='brodoonx.player151'></field>
+            <field name='country' ref='brodoonx.country185'></field>
+        </record>
+        <record id='discography135' model='brodoonx.discography'>
+            <field name='name'>MarJer</field>
+            <field name='budget'>312947</field>
+            <field name='owner' ref='brodoonx.player404'></field>
+            <field name='country' ref='brodoonx.country94'></field>
+        </record>
+        <record id='discography136' model='brodoonx.discography'>
+            <field name='name'>CarBur</field>
+            <field name='budget'>499270</field>
+            <field name='owner' ref='brodoonx.player372'></field>
+            <field name='country' ref='brodoonx.country215'></field>
+        </record>
+        <record id='discography137' model='brodoonx.discography'>
+            <field name='name'>ArdMar</field>
+            <field name='budget'>802090</field>
+            <field name='owner' ref='brodoonx.player336'></field>
+            <field name='country' ref='brodoonx.country108'></field>
+        </record>
+        <record id='discography138' model='brodoonx.discography'>
+            <field name='name'>AmaMos</field>
+            <field name='budget'>66799</field>
+            <field name='owner' ref='brodoonx.player123'></field>
+            <field name='country' ref='brodoonx.country80'></field>
+        </record>
+        <record id='discography139' model='brodoonx.discography'>
+            <field name='name'>VivNic</field>
+            <field name='budget'>573596</field>
+            <field name='owner' ref='brodoonx.player30'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography140' model='brodoonx.discography'>
+            <field name='name'>JacJua</field>
+            <field name='budget'>234584</field>
+            <field name='owner' ref='brodoonx.player440'></field>
+            <field name='country' ref='brodoonx.country152'></field>
+        </record>
+        <record id='discography141' model='brodoonx.discography'>
+            <field name='name'>OraNic</field>
+            <field name='budget'>62481</field>
+            <field name='owner' ref='brodoonx.player168'></field>
+            <field name='country' ref='brodoonx.country171'></field>
+        </record>
+        <record id='discography142' model='brodoonx.discography'>
+            <field name='name'>ShaJap</field>
+            <field name='budget'>715225</field>
+            <field name='owner' ref='brodoonx.player30'></field>
+            <field name='country' ref='brodoonx.country86'></field>
+        </record>
+        <record id='discography143' model='brodoonx.discography'>
+            <field name='name'>EmmWen</field>
+            <field name='budget'>549481</field>
+            <field name='owner' ref='brodoonx.player450'></field>
+            <field name='country' ref='brodoonx.country68'></field>
+        </record>
+        <record id='discography144' model='brodoonx.discography'>
+            <field name='name'>SasZas</field>
+            <field name='budget'>748157</field>
+            <field name='owner' ref='brodoonx.player423'></field>
+            <field name='country' ref='brodoonx.country136'></field>
+        </record>
+        <record id='discography145' model='brodoonx.discography'>
+            <field name='name'>HanOrt</field>
+            <field name='budget'>509993</field>
+            <field name='owner' ref='brodoonx.player111'></field>
+            <field name='country' ref='brodoonx.country223'></field>
+        </record>
+        <record id='discography146' model='brodoonx.discography'>
+            <field name='name'>ChrGar</field>
+            <field name='budget'>71064</field>
+            <field name='owner' ref='brodoonx.player143'></field>
+            <field name='country' ref='brodoonx.country166'></field>
+        </record>
+        <record id='discography147' model='brodoonx.discography'>
+            <field name='name'>QueSli</field>
+            <field name='budget'>443094</field>
+            <field name='owner' ref='brodoonx.player136'></field>
+            <field name='country' ref='brodoonx.country29'></field>
+        </record>
+        <record id='discography148' model='brodoonx.discography'>
+            <field name='name'>BetMap</field>
+            <field name='budget'>351869</field>
+            <field name='owner' ref='brodoonx.player236'></field>
+            <field name='country' ref='brodoonx.country221'></field>
+        </record>
+        <record id='discography149' model='brodoonx.discography'>
+            <field name='name'>RosNor</field>
+            <field name='budget'>930789</field>
+            <field name='owner' ref='brodoonx.player365'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography150' model='brodoonx.discography'>
+            <field name='name'>MorDow</field>
+            <field name='budget'>554363</field>
+            <field name='owner' ref='brodoonx.player45'></field>
+            <field name='country' ref='brodoonx.country93'></field>
+        </record>
+        <record id='discography151' model='brodoonx.discography'>
+            <field name='name'>FreSte</field>
+            <field name='budget'>90563</field>
+            <field name='owner' ref='brodoonx.player46'></field>
+            <field name='country' ref='brodoonx.country199'></field>
+        </record>
+        <record id='discography152' model='brodoonx.discography'>
+            <field name='name'>PhySti</field>
+            <field name='budget'>77181</field>
+            <field name='owner' ref='brodoonx.player303'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography153' model='brodoonx.discography'>
+            <field name='name'>MauFre</field>
+            <field name='budget'>365174</field>
+            <field name='owner' ref='brodoonx.player464'></field>
+            <field name='country' ref='brodoonx.country105'></field>
+        </record>
+        <record id='discography154' model='brodoonx.discography'>
+            <field name='name'>BelMor</field>
+            <field name='budget'>684241</field>
+            <field name='owner' ref='brodoonx.player441'></field>
+            <field name='country' ref='brodoonx.country184'></field>
+        </record>
+        <record id='discography155' model='brodoonx.discography'>
+            <field name='name'>DonBac</field>
+            <field name='budget'>153949</field>
+            <field name='owner' ref='brodoonx.player435'></field>
+            <field name='country' ref='brodoonx.country89'></field>
+        </record>
+        <record id='discography156' model='brodoonx.discography'>
+            <field name='name'>ClaElo</field>
+            <field name='budget'>539600</field>
+            <field name='owner' ref='brodoonx.player209'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography157' model='brodoonx.discography'>
+            <field name='name'>SarPer</field>
+            <field name='budget'>275809</field>
+            <field name='owner' ref='brodoonx.player209'></field>
+            <field name='country' ref='brodoonx.country182'></field>
+        </record>
+        <record id='discography158' model='brodoonx.discography'>
+            <field name='name'>KatFro</field>
+            <field name='budget'>935037</field>
+            <field name='owner' ref='brodoonx.player393'></field>
+            <field name='country' ref='brodoonx.country44'></field>
+        </record>
+        <record id='discography159' model='brodoonx.discography'>
+            <field name='name'>WanRhe</field>
+            <field name='budget'>709678</field>
+            <field name='owner' ref='brodoonx.player446'></field>
+            <field name='country' ref='brodoonx.country213'></field>
+        </record>
+        <record id='discography160' model='brodoonx.discography'>
+            <field name='name'>MigArd</field>
+            <field name='budget'>6621</field>
+            <field name='owner' ref='brodoonx.player430'></field>
+            <field name='country' ref='brodoonx.country217'></field>
+        </record>
+        <record id='discography161' model='brodoonx.discography'>
+            <field name='name'>ModBon</field>
+            <field name='budget'>83006</field>
+            <field name='owner' ref='brodoonx.player305'></field>
+            <field name='country' ref='brodoonx.country45'></field>
+        </record>
+        <record id='discography162' model='brodoonx.discography'>
+            <field name='name'>MamFar</field>
+            <field name='budget'>285623</field>
+            <field name='owner' ref='brodoonx.player226'></field>
+            <field name='country' ref='brodoonx.country116'></field>
+        </record>
+        <record id='discography163' model='brodoonx.discography'>
+            <field name='name'>CinEza</field>
+            <field name='budget'>342313</field>
+            <field name='owner' ref='brodoonx.player374'></field>
+            <field name='country' ref='brodoonx.country86'></field>
+        </record>
+        <record id='discography164' model='brodoonx.discography'>
+            <field name='name'>ShaNun</field>
+            <field name='budget'>161303</field>
+            <field name='owner' ref='brodoonx.player57'></field>
+            <field name='country' ref='brodoonx.country82'></field>
+        </record>
+        <record id='discography165' model='brodoonx.discography'>
+            <field name='name'>ChaKar</field>
+            <field name='budget'>87371</field>
+            <field name='owner' ref='brodoonx.player198'></field>
+            <field name='country' ref='brodoonx.country17'></field>
+        </record>
+        <record id='discography166' model='brodoonx.discography'>
+            <field name='name'>WilRox</field>
+            <field name='budget'>625383</field>
+            <field name='owner' ref='brodoonx.player5'></field>
+            <field name='country' ref='brodoonx.country140'></field>
+        </record>
+        <record id='discography167' model='brodoonx.discography'>
+            <field name='name'>CamBak</field>
+            <field name='budget'>678674</field>
+            <field name='owner' ref='brodoonx.player322'></field>
+            <field name='country' ref='brodoonx.country93'></field>
+        </record>
+        <record id='discography168' model='brodoonx.discography'>
+            <field name='name'>ChiKiy</field>
+            <field name='budget'>799208</field>
+            <field name='owner' ref='brodoonx.player396'></field>
+            <field name='country' ref='brodoonx.country206'></field>
+        </record>
+        <record id='discography169' model='brodoonx.discography'>
+            <field name='name'>AnaShe</field>
+            <field name='budget'>510988</field>
+            <field name='owner' ref='brodoonx.player428'></field>
+            <field name='country' ref='brodoonx.country13'></field>
+        </record>
+        <record id='discography170' model='brodoonx.discography'>
+            <field name='name'>TinGas</field>
+            <field name='budget'>703872</field>
+            <field name='owner' ref='brodoonx.player95'></field>
+            <field name='country' ref='brodoonx.country192'></field>
+        </record>
+        <record id='discography171' model='brodoonx.discography'>
+            <field name='name'>JanGam</field>
+            <field name='budget'>522409</field>
+            <field name='owner' ref='brodoonx.player496'></field>
+            <field name='country' ref='brodoonx.country131'></field>
+        </record>
+        <record id='discography172' model='brodoonx.discography'>
+            <field name='name'>LinArm</field>
+            <field name='budget'>359238</field>
+            <field name='owner' ref='brodoonx.player169'></field>
+            <field name='country' ref='brodoonx.country207'></field>
+        </record>
+        <record id='discography173' model='brodoonx.discography'>
+            <field name='name'>NesJay</field>
+            <field name='budget'>221435</field>
+            <field name='owner' ref='brodoonx.player286'></field>
+            <field name='country' ref='brodoonx.country22'></field>
+        </record>
+        <record id='discography174' model='brodoonx.discography'>
+            <field name='name'>CarErm</field>
+            <field name='budget'>55167</field>
+            <field name='owner' ref='brodoonx.player418'></field>
+            <field name='country' ref='brodoonx.country156'></field>
+        </record>
+        <record id='discography175' model='brodoonx.discography'>
+            <field name='name'>PolMau</field>
+            <field name='budget'>218307</field>
+            <field name='owner' ref='brodoonx.player431'></field>
+            <field name='country' ref='brodoonx.country205'></field>
+        </record>
+        <record id='discography176' model='brodoonx.discography'>
+            <field name='name'>BilBoe</field>
+            <field name='budget'>392207</field>
+            <field name='owner' ref='brodoonx.player143'></field>
+            <field name='country' ref='brodoonx.country150'></field>
+        </record>
+        <record id='discography177' model='brodoonx.discography'>
+            <field name='name'>MicRur</field>
+            <field name='budget'>645575</field>
+            <field name='owner' ref='brodoonx.player118'></field>
+            <field name='country' ref='brodoonx.country156'></field>
+        </record>
+        <record id='discography178' model='brodoonx.discography'>
+            <field name='name'>LilUlp</field>
+            <field name='budget'>109298</field>
+            <field name='owner' ref='brodoonx.player134'></field>
+            <field name='country' ref='brodoonx.country142'></field>
+        </record>
+        <record id='discography179' model='brodoonx.discography'>
+            <field name='name'>GinCar</field>
+            <field name='budget'>838978</field>
+            <field name='owner' ref='brodoonx.player57'></field>
+            <field name='country' ref='brodoonx.country48'></field>
+        </record>
+        <record id='discography180' model='brodoonx.discography'>
+            <field name='name'>NanSel</field>
+            <field name='budget'>631</field>
+            <field name='owner' ref='brodoonx.player192'></field>
+            <field name='country' ref='brodoonx.country26'></field>
+        </record>
+        <record id='discography181' model='brodoonx.discography'>
+            <field name='name'>MicOre</field>
+            <field name='budget'>739328</field>
+            <field name='owner' ref='brodoonx.player485'></field>
+            <field name='country' ref='brodoonx.country81'></field>
+        </record>
+        <record id='discography182' model='brodoonx.discography'>
+            <field name='name'>RosDud</field>
+            <field name='budget'>657732</field>
+            <field name='owner' ref='brodoonx.player458'></field>
+            <field name='country' ref='brodoonx.country135'></field>
+        </record>
+        <record id='discography183' model='brodoonx.discography'>
+            <field name='name'>MarBla</field>
+            <field name='budget'>14850</field>
+            <field name='owner' ref='brodoonx.player456'></field>
+            <field name='country' ref='brodoonx.country191'></field>
+        </record>
+        <record id='discography184' model='brodoonx.discography'>
+            <field name='name'>ChaBar</field>
+            <field name='budget'>33449</field>
+            <field name='owner' ref='brodoonx.player448'></field>
+            <field name='country' ref='brodoonx.country125'></field>
+        </record>
+        <record id='discography185' model='brodoonx.discography'>
+            <field name='name'>GleLac</field>
+            <field name='budget'>204704</field>
+            <field name='owner' ref='brodoonx.player56'></field>
+            <field name='country' ref='brodoonx.country170'></field>
+        </record>
+        <record id='discography186' model='brodoonx.discography'>
+            <field name='name'>ChaDit</field>
+            <field name='budget'>760509</field>
+            <field name='owner' ref='brodoonx.player113'></field>
+            <field name='country' ref='brodoonx.country18'></field>
+        </record>
+        <record id='discography187' model='brodoonx.discography'>
+            <field name='name'>JoaCav</field>
+            <field name='budget'>401278</field>
+            <field name='owner' ref='brodoonx.player436'></field>
+            <field name='country' ref='brodoonx.country101'></field>
+        </record>
+        <record id='discography188' model='brodoonx.discography'>
+            <field name='name'>AngAlw</field>
+            <field name='budget'>49587</field>
+            <field name='owner' ref='brodoonx.player37'></field>
+            <field name='country' ref='brodoonx.country213'></field>
+        </record>
+        <record id='discography189' model='brodoonx.discography'>
+            <field name='name'>NerCam</field>
+            <field name='budget'>389680</field>
+            <field name='owner' ref='brodoonx.player369'></field>
+            <field name='country' ref='brodoonx.country231'></field>
+        </record>
+        <record id='discography190' model='brodoonx.discography'>
+            <field name='name'>NitHug</field>
+            <field name='budget'>102136</field>
+            <field name='owner' ref='brodoonx.player74'></field>
+            <field name='country' ref='brodoonx.country27'></field>
+        </record>
+        <record id='discography191' model='brodoonx.discography'>
+            <field name='name'>EloWar</field>
+            <field name='budget'>706457</field>
+            <field name='owner' ref='brodoonx.player244'></field>
+            <field name='country' ref='brodoonx.country12'></field>
+        </record>
+        <record id='discography192' model='brodoonx.discography'>
+            <field name='name'>PriDal</field>
+            <field name='budget'>899336</field>
+            <field name='owner' ref='brodoonx.player54'></field>
+            <field name='country' ref='brodoonx.country4'></field>
+        </record>
+        <record id='discography193' model='brodoonx.discography'>
+            <field name='name'>DotWal</field>
+            <field name='budget'>416784</field>
+            <field name='owner' ref='brodoonx.player204'></field>
+            <field name='country' ref='brodoonx.country66'></field>
+        </record>
+        <record id='discography194' model='brodoonx.discography'>
+            <field name='name'>DorMan</field>
+            <field name='budget'>854760</field>
+            <field name='owner' ref='brodoonx.player206'></field>
+            <field name='country' ref='brodoonx.country83'></field>
+        </record>
+        <record id='discography195' model='brodoonx.discography'>
+            <field name='name'>ElfRol</field>
+            <field name='budget'>133679</field>
+            <field name='owner' ref='brodoonx.player229'></field>
+            <field name='country' ref='brodoonx.country142'></field>
+        </record>
+        <record id='discography196' model='brodoonx.discography'>
+            <field name='name'>EmyPeo</field>
+            <field name='budget'>625177</field>
+            <field name='owner' ref='brodoonx.player34'></field>
+            <field name='country' ref='brodoonx.country174'></field>
+        </record>
+        <record id='discography197' model='brodoonx.discography'>
+            <field name='name'>LysKho</field>
+            <field name='budget'>757992</field>
+            <field name='owner' ref='brodoonx.player471'></field>
+            <field name='country' ref='brodoonx.country30'></field>
+        </record>
+        <record id='discography198' model='brodoonx.discography'>
+            <field name='name'>LorEis</field>
+            <field name='budget'>75824</field>
+            <field name='owner' ref='brodoonx.player126'></field>
+            <field name='country' ref='brodoonx.country94'></field>
+        </record>
+        <record id='discography199' model='brodoonx.discography'>
+            <field name='name'>LisBat</field>
+            <field name='budget'>243247</field>
+            <field name='owner' ref='brodoonx.player453'></field>
+            <field name='country' ref='brodoonx.country49'></field>
+        </record>
+        <record id='discography200' model='brodoonx.discography'>
+            <field name='name'>FreCar</field>
+            <field name='budget'>548219</field>
+            <field name='owner' ref='brodoonx.player206'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography201' model='brodoonx.discography'>
+            <field name='name'>AmaSan</field>
+            <field name='budget'>418046</field>
+            <field name='owner' ref='brodoonx.player302'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography202' model='brodoonx.discography'>
+            <field name='name'>ValSal</field>
+            <field name='budget'>510744</field>
+            <field name='owner' ref='brodoonx.player9'></field>
+            <field name='country' ref='brodoonx.country69'></field>
+        </record>
+        <record id='discography203' model='brodoonx.discography'>
+            <field name='name'>MaxEve</field>
+            <field name='budget'>296401</field>
+            <field name='owner' ref='brodoonx.player270'></field>
+            <field name='country' ref='brodoonx.country8'></field>
+        </record>
+        <record id='discography204' model='brodoonx.discography'>
+            <field name='name'>VanCam</field>
+            <field name='budget'>629825</field>
+            <field name='owner' ref='brodoonx.player12'></field>
+            <field name='country' ref='brodoonx.country161'></field>
+        </record>
+        <record id='discography205' model='brodoonx.discography'>
+            <field name='name'>AmaOsc</field>
+            <field name='budget'>157344</field>
+            <field name='owner' ref='brodoonx.player149'></field>
+            <field name='country' ref='brodoonx.country107'></field>
+        </record>
+        <record id='discography206' model='brodoonx.discography'>
+            <field name='name'>GayGaa</field>
+            <field name='budget'>38194</field>
+            <field name='owner' ref='brodoonx.player410'></field>
+            <field name='country' ref='brodoonx.country151'></field>
+        </record>
+        <record id='discography207' model='brodoonx.discography'>
+            <field name='name'>BetWen</field>
+            <field name='budget'>58402</field>
+            <field name='owner' ref='brodoonx.player130'></field>
+            <field name='country' ref='brodoonx.country149'></field>
+        </record>
+        <record id='discography208' model='brodoonx.discography'>
+            <field name='name'>TybLin</field>
+            <field name='budget'>123377</field>
+            <field name='owner' ref='brodoonx.player84'></field>
+            <field name='country' ref='brodoonx.country21'></field>
+        </record>
+        <record id='discography209' model='brodoonx.discography'>
+            <field name='name'>TilRei</field>
+            <field name='budget'>958597</field>
+            <field name='owner' ref='brodoonx.player324'></field>
+            <field name='country' ref='brodoonx.country141'></field>
+        </record>
+        <record id='discography210' model='brodoonx.discography'>
+            <field name='name'>KarVas</field>
+            <field name='budget'>292796</field>
+            <field name='owner' ref='brodoonx.player491'></field>
+            <field name='country' ref='brodoonx.country186'></field>
+        </record>
+        <record id='discography211' model='brodoonx.discography'>
+            <field name='name'>RiaChe</field>
+            <field name='budget'>629865</field>
+            <field name='owner' ref='brodoonx.player90'></field>
+            <field name='country' ref='brodoonx.country147'></field>
+        </record>
+        <record id='discography212' model='brodoonx.discography'>
+            <field name='name'>JosMoi</field>
+            <field name='budget'>826806</field>
+            <field name='owner' ref='brodoonx.player397'></field>
+            <field name='country' ref='brodoonx.country160'></field>
+        </record>
+        <record id='discography213' model='brodoonx.discography'>
+            <field name='name'>ShaSli</field>
+            <field name='budget'>695035</field>
+            <field name='owner' ref='brodoonx.player126'></field>
+            <field name='country' ref='brodoonx.country128'></field>
+        </record>
+        <record id='discography214' model='brodoonx.discography'>
+            <field name='name'>RosHae</field>
+            <field name='budget'>863926</field>
+            <field name='owner' ref='brodoonx.player317'></field>
+            <field name='country' ref='brodoonx.country59'></field>
+        </record>
+        <record id='discography215' model='brodoonx.discography'>
+            <field name='name'>HenCai</field>
+            <field name='budget'>624961</field>
+            <field name='owner' ref='brodoonx.player196'></field>
+            <field name='country' ref='brodoonx.country145'></field>
+        </record>
+        <record id='discography216' model='brodoonx.discography'>
+            <field name='name'>NatCly</field>
+            <field name='budget'>65086</field>
+            <field name='owner' ref='brodoonx.player181'></field>
+            <field name='country' ref='brodoonx.country8'></field>
+        </record>
+        <record id='discography217' model='brodoonx.discography'>
+            <field name='name'>DemZam</field>
+            <field name='budget'>521683</field>
+            <field name='owner' ref='brodoonx.player325'></field>
+            <field name='country' ref='brodoonx.country204'></field>
+        </record>
+        <record id='discography218' model='brodoonx.discography'>
+            <field name='name'>BerSil</field>
+            <field name='budget'>586217</field>
+            <field name='owner' ref='brodoonx.player124'></field>
+            <field name='country' ref='brodoonx.country159'></field>
+        </record>
+        <record id='discography219' model='brodoonx.discography'>
+            <field name='name'>WilSha</field>
+            <field name='budget'>351038</field>
+            <field name='owner' ref='brodoonx.player8'></field>
+            <field name='country' ref='brodoonx.country140'></field>
+        </record>
+        <record id='discography220' model='brodoonx.discography'>
+            <field name='name'>ThaPre</field>
+            <field name='budget'>75929</field>
+            <field name='owner' ref='brodoonx.player467'></field>
+            <field name='country' ref='brodoonx.country219'></field>
+        </record>
+        <record id='discography221' model='brodoonx.discography'>
+            <field name='name'>HedNor</field>
+            <field name='budget'>501330</field>
+            <field name='owner' ref='brodoonx.player105'></field>
+            <field name='country' ref='brodoonx.country210'></field>
+        </record>
+        <record id='discography222' model='brodoonx.discography'>
+            <field name='name'>RheGeo</field>
+            <field name='budget'>140501</field>
+            <field name='owner' ref='brodoonx.player58'></field>
+            <field name='country' ref='brodoonx.country213'></field>
+        </record>
+        <record id='discography223' model='brodoonx.discography'>
+            <field name='name'>JenCir</field>
+            <field name='budget'>755398</field>
+            <field name='owner' ref='brodoonx.player228'></field>
+            <field name='country' ref='brodoonx.country25'></field>
+        </record>
+        <record id='discography224' model='brodoonx.discography'>
+            <field name='name'>DenRub</field>
+            <field name='budget'>236352</field>
+            <field name='owner' ref='brodoonx.player220'></field>
+            <field name='country' ref='brodoonx.country85'></field>
+        </record>
+        <record id='discography225' model='brodoonx.discography'>
+            <field name='name'>EadMur</field>
+            <field name='budget'>691709</field>
+            <field name='owner' ref='brodoonx.player455'></field>
+            <field name='country' ref='brodoonx.country179'></field>
+        </record>
+        <record id='discography226' model='brodoonx.discography'>
+            <field name='name'>JorKar</field>
+            <field name='budget'>631281</field>
+            <field name='owner' ref='brodoonx.player377'></field>
+            <field name='country' ref='brodoonx.country193'></field>
+        </record>
+        <record id='discography227' model='brodoonx.discography'>
+            <field name='name'>JorBil</field>
+            <field name='budget'>712119</field>
+            <field name='owner' ref='brodoonx.player117'></field>
+            <field name='country' ref='brodoonx.country17'></field>
+        </record>
+        <record id='discography228' model='brodoonx.discography'>
+            <field name='name'>RosRaa</field>
+            <field name='budget'>963147</field>
+            <field name='owner' ref='brodoonx.player369'></field>
+            <field name='country' ref='brodoonx.country138'></field>
+        </record>
+        <record id='discography229' model='brodoonx.discography'>
+            <field name='name'>RosFlo</field>
+            <field name='budget'>846165</field>
+            <field name='owner' ref='brodoonx.player113'></field>
+            <field name='country' ref='brodoonx.country28'></field>
+        </record>
+        <record id='discography230' model='brodoonx.discography'>
+            <field name='name'>AnnFra</field>
+            <field name='budget'>12739</field>
+            <field name='owner' ref='brodoonx.player442'></field>
+            <field name='country' ref='brodoonx.country35'></field>
+        </record>
+        <record id='discography231' model='brodoonx.discography'>
+            <field name='name'>PheAma</field>
+            <field name='budget'>901524</field>
+            <field name='owner' ref='brodoonx.player305'></field>
+            <field name='country' ref='brodoonx.country112'></field>
+        </record>
+        <record id='discography232' model='brodoonx.discography'>
+            <field name='name'>AugSha</field>
+            <field name='budget'>117757</field>
+            <field name='owner' ref='brodoonx.player184'></field>
+            <field name='country' ref='brodoonx.country42'></field>
+        </record>
+        <record id='discography233' model='brodoonx.discography'>
+            <field name='name'>LolBut</field>
+            <field name='budget'>833061</field>
+            <field name='owner' ref='brodoonx.player119'></field>
+            <field name='country' ref='brodoonx.country83'></field>
+        </record>
+        <record id='discography234' model='brodoonx.discography'>
+            <field name='name'>FerHay</field>
+            <field name='budget'>417497</field>
+            <field name='owner' ref='brodoonx.player28'></field>
+            <field name='country' ref='brodoonx.country214'></field>
+        </record>
+        <record id='discography235' model='brodoonx.discography'>
+            <field name='name'>WynCle</field>
+            <field name='budget'>471813</field>
+            <field name='owner' ref='brodoonx.player176'></field>
+            <field name='country' ref='brodoonx.country129'></field>
+        </record>
+        <record id='discography236' model='brodoonx.discography'>
+            <field name='name'>KajGod</field>
+            <field name='budget'>49153</field>
+            <field name='owner' ref='brodoonx.player439'></field>
+            <field name='country' ref='brodoonx.country56'></field>
+        </record>
+        <record id='discography237' model='brodoonx.discography'>
+            <field name='name'>LiaBuf</field>
+            <field name='budget'>892944</field>
+            <field name='owner' ref='brodoonx.player318'></field>
+            <field name='country' ref='brodoonx.country233'></field>
+        </record>
+        <record id='discography238' model='brodoonx.discography'>
+            <field name='name'>JoePyl</field>
+            <field name='budget'>596302</field>
+            <field name='owner' ref='brodoonx.player236'></field>
+            <field name='country' ref='brodoonx.country17'></field>
+        </record>
+        <record id='discography239' model='brodoonx.discography'>
+            <field name='name'>SybPla</field>
+            <field name='budget'>579528</field>
+            <field name='owner' ref='brodoonx.player358'></field>
+            <field name='country' ref='brodoonx.country177'></field>
+        </record>
+        <record id='discography240' model='brodoonx.discography'>
+            <field name='name'>AarMos</field>
+            <field name='budget'>497438</field>
+            <field name='owner' ref='brodoonx.player359'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography241' model='brodoonx.discography'>
+            <field name='name'>MerBal</field>
+            <field name='budget'>886965</field>
+            <field name='owner' ref='brodoonx.player257'></field>
+            <field name='country' ref='brodoonx.country48'></field>
+        </record>
+        <record id='discography242' model='brodoonx.discography'>
+            <field name='name'>RomJer</field>
+            <field name='budget'>962425</field>
+            <field name='owner' ref='brodoonx.player377'></field>
+            <field name='country' ref='brodoonx.country156'></field>
+        </record>
+        <record id='discography243' model='brodoonx.discography'>
+            <field name='name'>MegSte</field>
+            <field name='budget'>493063</field>
+            <field name='owner' ref='brodoonx.player270'></field>
+            <field name='country' ref='brodoonx.country143'></field>
+        </record>
+        <record id='discography244' model='brodoonx.discography'>
+            <field name='name'>SibLau</field>
+            <field name='budget'>527714</field>
+            <field name='owner' ref='brodoonx.player97'></field>
+            <field name='country' ref='brodoonx.country10'></field>
+        </record>
+        <record id='discography245' model='brodoonx.discography'>
+            <field name='name'>LucSho</field>
+            <field name='budget'>181685</field>
+            <field name='owner' ref='brodoonx.player442'></field>
+            <field name='country' ref='brodoonx.country122'></field>
+        </record>
+        <record id='discography246' model='brodoonx.discography'>
+            <field name='name'>FloErl</field>
+            <field name='budget'>12314</field>
+            <field name='owner' ref='brodoonx.player449'></field>
+            <field name='country' ref='brodoonx.country217'></field>
+        </record>
+        <record id='discography247' model='brodoonx.discography'>
+            <field name='name'>DacSus</field>
+            <field name='budget'>219688</field>
+            <field name='owner' ref='brodoonx.player129'></field>
+            <field name='country' ref='brodoonx.country226'></field>
+        </record>
+        <record id='discography248' model='brodoonx.discography'>
+            <field name='name'>EllSal</field>
+            <field name='budget'>384341</field>
+            <field name='owner' ref='brodoonx.player299'></field>
+            <field name='country' ref='brodoonx.country179'></field>
+        </record>
+        <record id='discography249' model='brodoonx.discography'>
+            <field name='name'>ChiToo</field>
+            <field name='budget'>48204</field>
+            <field name='owner' ref='brodoonx.player109'></field>
+            <field name='country' ref='brodoonx.country117'></field>
+        </record>
+        <record id='discography250' model='brodoonx.discography'>
+            <field name='name'>EdyDam</field>
+            <field name='budget'>213790</field>
+            <field name='owner' ref='brodoonx.player360'></field>
+            <field name='country' ref='brodoonx.country95'></field>
+        </record>
+        <record id='discography251' model='brodoonx.discography'>
+            <field name='name'>FidLip</field>
+            <field name='budget'>584064</field>
+            <field name='owner' ref='brodoonx.player478'></field>
+            <field name='country' ref='brodoonx.country29'></field>
+        </record>
+        <record id='discography252' model='brodoonx.discography'>
+            <field name='name'>CybMar</field>
+            <field name='budget'>832209</field>
+            <field name='owner' ref='brodoonx.player276'></field>
+            <field name='country' ref='brodoonx.country131'></field>
+        </record>
+        <record id='discography253' model='brodoonx.discography'>
+            <field name='name'>MerCar</field>
+            <field name='budget'>307457</field>
+            <field name='owner' ref='brodoonx.player292'></field>
+            <field name='country' ref='brodoonx.country80'></field>
+        </record>
+        <record id='discography254' model='brodoonx.discography'>
+            <field name='name'>AnnBra</field>
+            <field name='budget'>814610</field>
+            <field name='owner' ref='brodoonx.player287'></field>
+            <field name='country' ref='brodoonx.country34'></field>
+        </record>
+        <record id='discography255' model='brodoonx.discography'>
+            <field name='name'>BelSus</field>
+            <field name='budget'>945454</field>
+            <field name='owner' ref='brodoonx.player441'></field>
+            <field name='country' ref='brodoonx.country194'></field>
+        </record>
+        <record id='discography256' model='brodoonx.discography'>
+            <field name='name'>BarSi</field>
+            <field name='budget'>881226</field>
+            <field name='owner' ref='brodoonx.player79'></field>
+            <field name='country' ref='brodoonx.country133'></field>
+        </record>
+        <record id='discography257' model='brodoonx.discography'>
+            <field name='name'>EliMcL</field>
+            <field name='budget'>225837</field>
+            <field name='owner' ref='brodoonx.player100'></field>
+            <field name='country' ref='brodoonx.country105'></field>
+        </record>
+        <record id='discography258' model='brodoonx.discography'>
+            <field name='name'>BobAlv</field>
+            <field name='budget'>371367</field>
+            <field name='owner' ref='brodoonx.player334'></field>
+            <field name='country' ref='brodoonx.country216'></field>
+        </record>
+        <record id='discography259' model='brodoonx.discography'>
+            <field name='name'>MirAtc</field>
+            <field name='budget'>294473</field>
+            <field name='owner' ref='brodoonx.player421'></field>
+            <field name='country' ref='brodoonx.country224'></field>
+        </record>
+        <record id='discography260' model='brodoonx.discography'>
+            <field name='name'>SelGil</field>
+            <field name='budget'>805629</field>
+            <field name='owner' ref='brodoonx.player417'></field>
+            <field name='country' ref='brodoonx.country170'></field>
+        </record>
+        <record id='discography261' model='brodoonx.discography'>
+            <field name='name'>JacThe</field>
+            <field name='budget'>786703</field>
+            <field name='owner' ref='brodoonx.player191'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography262' model='brodoonx.discography'>
+            <field name='name'>FreWu</field>
+            <field name='budget'>35278</field>
+            <field name='owner' ref='brodoonx.player400'></field>
+            <field name='country' ref='brodoonx.country112'></field>
+        </record>
+        <record id='discography263' model='brodoonx.discography'>
+            <field name='name'>RivPai</field>
+            <field name='budget'>876978</field>
+            <field name='owner' ref='brodoonx.player335'></field>
+            <field name='country' ref='brodoonx.country179'></field>
+        </record>
+        <record id='discography264' model='brodoonx.discography'>
+            <field name='name'>MarAbe</field>
+            <field name='budget'>957984</field>
+            <field name='owner' ref='brodoonx.player179'></field>
+            <field name='country' ref='brodoonx.country180'></field>
+        </record>
+        <record id='discography265' model='brodoonx.discography'>
+            <field name='name'>KelPat</field>
+            <field name='budget'>877006</field>
+            <field name='owner' ref='brodoonx.player113'></field>
+            <field name='country' ref='brodoonx.country165'></field>
+        </record>
+        <record id='discography266' model='brodoonx.discography'>
+            <field name='name'>RonWar</field>
+            <field name='budget'>635891</field>
+            <field name='owner' ref='brodoonx.player41'></field>
+            <field name='country' ref='brodoonx.country194'></field>
+        </record>
+        <record id='discography267' model='brodoonx.discography'>
+            <field name='name'>MoyLoe</field>
+            <field name='budget'>189816</field>
+            <field name='owner' ref='brodoonx.player93'></field>
+            <field name='country' ref='brodoonx.country66'></field>
+        </record>
+        <record id='discography268' model='brodoonx.discography'>
+            <field name='name'>BibDel</field>
+            <field name='budget'>8832</field>
+            <field name='owner' ref='brodoonx.player410'></field>
+            <field name='country' ref='brodoonx.country31'></field>
+        </record>
+        <record id='discography269' model='brodoonx.discography'>
+            <field name='name'>HerWin</field>
+            <field name='budget'>857759</field>
+            <field name='owner' ref='brodoonx.player238'></field>
+            <field name='country' ref='brodoonx.country112'></field>
+        </record>
+        <record id='discography270' model='brodoonx.discography'>
+            <field name='name'>HyaRan</field>
+            <field name='budget'>59772</field>
+            <field name='owner' ref='brodoonx.player499'></field>
+            <field name='country' ref='brodoonx.country129'></field>
+        </record>
+        <record id='discography271' model='brodoonx.discography'>
+            <field name='name'>ColMos</field>
+            <field name='budget'>454444</field>
+            <field name='owner' ref='brodoonx.player348'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography272' model='brodoonx.discography'>
+            <field name='name'>DulAnn</field>
+            <field name='budget'>74706</field>
+            <field name='owner' ref='brodoonx.player89'></field>
+            <field name='country' ref='brodoonx.country170'></field>
+        </record>
+        <record id='discography273' model='brodoonx.discography'>
+            <field name='name'>JanRon</field>
+            <field name='budget'>797555</field>
+            <field name='owner' ref='brodoonx.player195'></field>
+            <field name='country' ref='brodoonx.country15'></field>
+        </record>
+        <record id='discography274' model='brodoonx.discography'>
+            <field name='name'>JunKar</field>
+            <field name='budget'>72314</field>
+            <field name='owner' ref='brodoonx.player189'></field>
+            <field name='country' ref='brodoonx.country132'></field>
+        </record>
+        <record id='discography275' model='brodoonx.discography'>
+            <field name='name'>AdrBla</field>
+            <field name='budget'>832756</field>
+            <field name='owner' ref='brodoonx.player317'></field>
+            <field name='country' ref='brodoonx.country228'></field>
+        </record>
+        <record id='discography276' model='brodoonx.discography'>
+            <field name='name'>GilShu</field>
+            <field name='budget'>896837</field>
+            <field name='owner' ref='brodoonx.player70'></field>
+            <field name='country' ref='brodoonx.country149'></field>
+        </record>
+        <record id='discography277' model='brodoonx.discography'>
+            <field name='name'>ChlCha</field>
+            <field name='budget'>892224</field>
+            <field name='owner' ref='brodoonx.player92'></field>
+            <field name='country' ref='brodoonx.country108'></field>
+        </record>
+        <record id='discography278' model='brodoonx.discography'>
+            <field name='name'>AtlLat</field>
+            <field name='budget'>145702</field>
+            <field name='owner' ref='brodoonx.player95'></field>
+            <field name='country' ref='brodoonx.country213'></field>
+        </record>
+        <record id='discography279' model='brodoonx.discography'>
+            <field name='name'>EsmDri</field>
+            <field name='budget'>730537</field>
+            <field name='owner' ref='brodoonx.player435'></field>
+            <field name='country' ref='brodoonx.country125'></field>
+        </record>
+        <record id='discography280' model='brodoonx.discography'>
+            <field name='name'>BriLol</field>
+            <field name='budget'>73575</field>
+            <field name='owner' ref='brodoonx.player296'></field>
+            <field name='country' ref='brodoonx.country136'></field>
+        </record>
+        <record id='discography281' model='brodoonx.discography'>
+            <field name='name'>DulBat</field>
+            <field name='budget'>629413</field>
+            <field name='owner' ref='brodoonx.player423'></field>
+            <field name='country' ref='brodoonx.country65'></field>
+        </record>
+        <record id='discography282' model='brodoonx.discography'>
+            <field name='name'>DeiDuw</field>
+            <field name='budget'>826666</field>
+            <field name='owner' ref='brodoonx.player51'></field>
+            <field name='country' ref='brodoonx.country56'></field>
+        </record>
+        <record id='discography283' model='brodoonx.discography'>
+            <field name='name'>BerSta</field>
+            <field name='budget'>595818</field>
+            <field name='owner' ref='brodoonx.player64'></field>
+            <field name='country' ref='brodoonx.country90'></field>
+        </record>
+        <record id='discography284' model='brodoonx.discography'>
+            <field name='name'>LeaRos</field>
+            <field name='budget'>696734</field>
+            <field name='owner' ref='brodoonx.player475'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography285' model='brodoonx.discography'>
+            <field name='name'>LexWen</field>
+            <field name='budget'>461542</field>
+            <field name='owner' ref='brodoonx.player374'></field>
+            <field name='country' ref='brodoonx.country52'></field>
+        </record>
+        <record id='discography286' model='brodoonx.discography'>
+            <field name='name'>ChiLlo</field>
+            <field name='budget'>777287</field>
+            <field name='owner' ref='brodoonx.player245'></field>
+            <field name='country' ref='brodoonx.country202'></field>
+        </record>
+        <record id='discography287' model='brodoonx.discography'>
+            <field name='name'>TybMet</field>
+            <field name='budget'>431882</field>
+            <field name='owner' ref='brodoonx.player112'></field>
+            <field name='country' ref='brodoonx.country22'></field>
+        </record>
+        <record id='discography288' model='brodoonx.discography'>
+            <field name='name'>LonGun</field>
+            <field name='budget'>971254</field>
+            <field name='owner' ref='brodoonx.player198'></field>
+            <field name='country' ref='brodoonx.country189'></field>
+        </record>
+        <record id='discography289' model='brodoonx.discography'>
+            <field name='name'>BeeBea</field>
+            <field name='budget'>587101</field>
+            <field name='owner' ref='brodoonx.player137'></field>
+            <field name='country' ref='brodoonx.country110'></field>
+        </record>
+        <record id='discography290' model='brodoonx.discography'>
+            <field name='name'>AsiJul</field>
+            <field name='budget'>436137</field>
+            <field name='owner' ref='brodoonx.player68'></field>
+            <field name='country' ref='brodoonx.country202'></field>
+        </record>
+        <record id='discography291' model='brodoonx.discography'>
+            <field name='name'>AryMar</field>
+            <field name='budget'>99782</field>
+            <field name='owner' ref='brodoonx.player430'></field>
+            <field name='country' ref='brodoonx.country74'></field>
+        </record>
+        <record id='discography292' model='brodoonx.discography'>
+            <field name='name'>JeaLor</field>
+            <field name='budget'>311851</field>
+            <field name='owner' ref='brodoonx.player255'></field>
+            <field name='country' ref='brodoonx.country173'></field>
+        </record>
+        <record id='discography293' model='brodoonx.discography'>
+            <field name='name'>NinAur</field>
+            <field name='budget'>500738</field>
+            <field name='owner' ref='brodoonx.player334'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography294' model='brodoonx.discography'>
+            <field name='name'>MerGab</field>
+            <field name='budget'>605891</field>
+            <field name='owner' ref='brodoonx.player121'></field>
+            <field name='country' ref='brodoonx.country46'></field>
+        </record>
+        <record id='discography295' model='brodoonx.discography'>
+            <field name='name'>AnnHie</field>
+            <field name='budget'>844116</field>
+            <field name='owner' ref='brodoonx.player374'></field>
+            <field name='country' ref='brodoonx.country141'></field>
+        </record>
+        <record id='discography296' model='brodoonx.discography'>
+            <field name='name'>AigWil</field>
+            <field name='budget'>737954</field>
+            <field name='owner' ref='brodoonx.player94'></field>
+            <field name='country' ref='brodoonx.country145'></field>
+        </record>
+        <record id='discography297' model='brodoonx.discography'>
+            <field name='name'>KelRod</field>
+            <field name='budget'>696684</field>
+            <field name='owner' ref='brodoonx.player427'></field>
+            <field name='country' ref='brodoonx.country105'></field>
+        </record>
+        <record id='discography298' model='brodoonx.discography'>
+            <field name='name'>CodMel</field>
+            <field name='budget'>101889</field>
+            <field name='owner' ref='brodoonx.player132'></field>
+            <field name='country' ref='brodoonx.country158'></field>
+        </record>
+        <record id='discography299' model='brodoonx.discography'>
+            <field name='name'>GabCor</field>
+            <field name='budget'>638883</field>
+            <field name='owner' ref='brodoonx.player13'></field>
+            <field name='country' ref='brodoonx.country151'></field>
+        </record>
+        <record id='discography300' model='brodoonx.discography'>
+            <field name='name'>FloMap</field>
+            <field name='budget'>235660</field>
+            <field name='owner' ref='brodoonx.player91'></field>
+            <field name='country' ref='brodoonx.country164'></field>
+        </record>
+        <record id='discography301' model='brodoonx.discography'>
+            <field name='name'>SueAgl</field>
+            <field name='budget'>427269</field>
+            <field name='owner' ref='brodoonx.player164'></field>
+            <field name='country' ref='brodoonx.country98'></field>
+        </record>
+        <record id='discography302' model='brodoonx.discography'>
+            <field name='name'>JudLor</field>
+            <field name='budget'>284615</field>
+            <field name='owner' ref='brodoonx.player168'></field>
+            <field name='country' ref='brodoonx.country197'></field>
+        </record>
+        <record id='discography303' model='brodoonx.discography'>
+            <field name='name'>LynRan</field>
+            <field name='budget'>440422</field>
+            <field name='owner' ref='brodoonx.player327'></field>
+            <field name='country' ref='brodoonx.country235'></field>
+        </record>
+        <record id='discography304' model='brodoonx.discography'>
+            <field name='name'>LauEng</field>
+            <field name='budget'>41881</field>
+            <field name='owner' ref='brodoonx.player131'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography305' model='brodoonx.discography'>
+            <field name='name'>WanPan</field>
+            <field name='budget'>959341</field>
+            <field name='owner' ref='brodoonx.player324'></field>
+            <field name='country' ref='brodoonx.country92'></field>
+        </record>
+        <record id='discography306' model='brodoonx.discography'>
+            <field name='name'>PatVal</field>
+            <field name='budget'>458352</field>
+            <field name='owner' ref='brodoonx.player354'></field>
+            <field name='country' ref='brodoonx.country188'></field>
+        </record>
+        <record id='discography307' model='brodoonx.discography'>
+            <field name='name'>TorMil</field>
+            <field name='budget'>691840</field>
+            <field name='owner' ref='brodoonx.player324'></field>
+            <field name='country' ref='brodoonx.country104'></field>
+        </record>
+        <record id='discography308' model='brodoonx.discography'>
+            <field name='name'>ElsVal</field>
+            <field name='budget'>321170</field>
+            <field name='owner' ref='brodoonx.player367'></field>
+            <field name='country' ref='brodoonx.country57'></field>
+        </record>
+        <record id='discography309' model='brodoonx.discography'>
+            <field name='name'>MelKen</field>
+            <field name='budget'>250703</field>
+            <field name='owner' ref='brodoonx.player300'></field>
+            <field name='country' ref='brodoonx.country123'></field>
+        </record>
+        <record id='discography310' model='brodoonx.discography'>
+            <field name='name'>KarHir</field>
+            <field name='budget'>292757</field>
+            <field name='owner' ref='brodoonx.player57'></field>
+            <field name='country' ref='brodoonx.country53'></field>
+        </record>
+        <record id='discography311' model='brodoonx.discography'>
+            <field name='name'>KatYam</field>
+            <field name='budget'>895989</field>
+            <field name='owner' ref='brodoonx.player209'></field>
+            <field name='country' ref='brodoonx.country50'></field>
+        </record>
+        <record id='discography312' model='brodoonx.discography'>
+            <field name='name'>LeaEng</field>
+            <field name='budget'>379356</field>
+            <field name='owner' ref='brodoonx.player378'></field>
+            <field name='country' ref='brodoonx.country120'></field>
+        </record>
+        <record id='discography313' model='brodoonx.discography'>
+            <field name='name'>LorHer</field>
+            <field name='budget'>641221</field>
+            <field name='owner' ref='brodoonx.player8'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography314' model='brodoonx.discography'>
+            <field name='name'>MalMed</field>
+            <field name='budget'>642153</field>
+            <field name='owner' ref='brodoonx.player45'></field>
+            <field name='country' ref='brodoonx.country232'></field>
+        </record>
+        <record id='discography315' model='brodoonx.discography'>
+            <field name='name'>SusGra</field>
+            <field name='budget'>860968</field>
+            <field name='owner' ref='brodoonx.player97'></field>
+            <field name='country' ref='brodoonx.country178'></field>
+        </record>
+        <record id='discography316' model='brodoonx.discography'>
+            <field name='name'>MalElo</field>
+            <field name='budget'>704754</field>
+            <field name='owner' ref='brodoonx.player377'></field>
+            <field name='country' ref='brodoonx.country172'></field>
+        </record>
+        <record id='discography317' model='brodoonx.discography'>
+            <field name='name'>DeeAze</field>
+            <field name='budget'>524430</field>
+            <field name='owner' ref='brodoonx.player62'></field>
+            <field name='country' ref='brodoonx.country102'></field>
+        </record>
+        <record id='discography318' model='brodoonx.discography'>
+            <field name='name'>WinJeh</field>
+            <field name='budget'>31806</field>
+            <field name='owner' ref='brodoonx.player244'></field>
+            <field name='country' ref='brodoonx.country173'></field>
+        </record>
+        <record id='discography319' model='brodoonx.discography'>
+            <field name='name'>VikBer</field>
+            <field name='budget'>962051</field>
+            <field name='owner' ref='brodoonx.player453'></field>
+            <field name='country' ref='brodoonx.country203'></field>
+        </record>
+        <record id='discography320' model='brodoonx.discography'>
+            <field name='name'>JenHam</field>
+            <field name='budget'>203445</field>
+            <field name='owner' ref='brodoonx.player305'></field>
+            <field name='country' ref='brodoonx.country213'></field>
+        </record>
+        <record id='discography321' model='brodoonx.discography'>
+            <field name='name'>ShaRos</field>
+            <field name='budget'>880415</field>
+            <field name='owner' ref='brodoonx.player400'></field>
+            <field name='country' ref='brodoonx.country187'></field>
+        </record>
+        <record id='discography322' model='brodoonx.discography'>
+            <field name='name'>JoaKaj</field>
+            <field name='budget'>300901</field>
+            <field name='owner' ref='brodoonx.player158'></field>
+            <field name='country' ref='brodoonx.country218'></field>
+        </record>
+        <record id='discography323' model='brodoonx.discography'>
+            <field name='name'>AlyZam</field>
+            <field name='budget'>633868</field>
+            <field name='owner' ref='brodoonx.player300'></field>
+            <field name='country' ref='brodoonx.country165'></field>
+        </record>
+        <record id='discography324' model='brodoonx.discography'>
+            <field name='name'>LulFar</field>
+            <field name='budget'>319623</field>
+            <field name='owner' ref='brodoonx.player273'></field>
+            <field name='country' ref='brodoonx.country54'></field>
+        </record>
+        <record id='discography325' model='brodoonx.discography'>
+            <field name='name'>FloArv</field>
+            <field name='budget'>992591</field>
+            <field name='owner' ref='brodoonx.player198'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography326' model='brodoonx.discography'>
+            <field name='name'>OliRoc</field>
+            <field name='budget'>429920</field>
+            <field name='owner' ref='brodoonx.player200'></field>
+            <field name='country' ref='brodoonx.country42'></field>
+        </record>
+        <record id='discography327' model='brodoonx.discography'>
+            <field name='name'>AveAma</field>
+            <field name='budget'>649048</field>
+            <field name='owner' ref='brodoonx.player92'></field>
+            <field name='country' ref='brodoonx.country40'></field>
+        </record>
+        <record id='discography328' model='brodoonx.discography'>
+            <field name='name'>CatTha</field>
+            <field name='budget'>622805</field>
+            <field name='owner' ref='brodoonx.player267'></field>
+            <field name='country' ref='brodoonx.country101'></field>
+        </record>
+        <record id='discography329' model='brodoonx.discography'>
+            <field name='name'>HelDru</field>
+            <field name='budget'>928716</field>
+            <field name='owner' ref='brodoonx.player235'></field>
+            <field name='country' ref='brodoonx.country12'></field>
+        </record>
+        <record id='discography330' model='brodoonx.discography'>
+            <field name='name'>CouKar</field>
+            <field name='budget'>7807</field>
+            <field name='owner' ref='brodoonx.player162'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography331' model='brodoonx.discography'>
+            <field name='name'>LynEis</field>
+            <field name='budget'>804270</field>
+            <field name='owner' ref='brodoonx.player66'></field>
+            <field name='country' ref='brodoonx.country38'></field>
+        </record>
+        <record id='discography332' model='brodoonx.discography'>
+            <field name='name'>SheRoa</field>
+            <field name='budget'>956567</field>
+            <field name='owner' ref='brodoonx.player445'></field>
+            <field name='country' ref='brodoonx.country228'></field>
+        </record>
+        <record id='discography333' model='brodoonx.discography'>
+            <field name='name'>MarInf</field>
+            <field name='budget'>98264</field>
+            <field name='owner' ref='brodoonx.player7'></field>
+            <field name='country' ref='brodoonx.country83'></field>
+        </record>
+        <record id='discography334' model='brodoonx.discography'>
+            <field name='name'>SopMur</field>
+            <field name='budget'>579176</field>
+            <field name='owner' ref='brodoonx.player485'></field>
+            <field name='country' ref='brodoonx.country86'></field>
+        </record>
+        <record id='discography335' model='brodoonx.discography'>
+            <field name='name'>DarGay</field>
+            <field name='budget'>373996</field>
+            <field name='owner' ref='brodoonx.player296'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography336' model='brodoonx.discography'>
+            <field name='name'>SheIie</field>
+            <field name='budget'>167923</field>
+            <field name='owner' ref='brodoonx.player118'></field>
+            <field name='country' ref='brodoonx.country35'></field>
+        </record>
+        <record id='discography337' model='brodoonx.discography'>
+            <field name='name'>OreIme</field>
+            <field name='budget'>576698</field>
+            <field name='owner' ref='brodoonx.player231'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography338' model='brodoonx.discography'>
+            <field name='name'>DanMer</field>
+            <field name='budget'>32886</field>
+            <field name='owner' ref='brodoonx.player148'></field>
+            <field name='country' ref='brodoonx.country167'></field>
+        </record>
+        <record id='discography339' model='brodoonx.discography'>
+            <field name='name'>JaiEar</field>
+            <field name='budget'>764879</field>
+            <field name='owner' ref='brodoonx.player288'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography340' model='brodoonx.discography'>
+            <field name='name'>WinGut</field>
+            <field name='budget'>703916</field>
+            <field name='owner' ref='brodoonx.player249'></field>
+            <field name='country' ref='brodoonx.country205'></field>
+        </record>
+        <record id='discography341' model='brodoonx.discography'>
+            <field name='name'>DarJag</field>
+            <field name='budget'>545709</field>
+            <field name='owner' ref='brodoonx.player360'></field>
+            <field name='country' ref='brodoonx.country168'></field>
+        </record>
+        <record id='discography342' model='brodoonx.discography'>
+            <field name='name'>LonGil</field>
+            <field name='budget'>35779</field>
+            <field name='owner' ref='brodoonx.player264'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+        <record id='discography343' model='brodoonx.discography'>
+            <field name='name'>GleFil</field>
+            <field name='budget'>363363</field>
+            <field name='owner' ref='brodoonx.player223'></field>
+            <field name='country' ref='brodoonx.country205'></field>
+        </record>
+        <record id='discography344' model='brodoonx.discography'>
+            <field name='name'>MerBru</field>
+            <field name='budget'>45325</field>
+            <field name='owner' ref='brodoonx.player100'></field>
+            <field name='country' ref='brodoonx.country164'></field>
+        </record>
+        <record id='discography345' model='brodoonx.discography'>
+            <field name='name'>CheAle</field>
+            <field name='budget'>573285</field>
+            <field name='owner' ref='brodoonx.player52'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography346' model='brodoonx.discography'>
+            <field name='name'>MonRio</field>
+            <field name='budget'>323686</field>
+            <field name='owner' ref='brodoonx.player349'></field>
+            <field name='country' ref='brodoonx.country62'></field>
+        </record>
+        <record id='discography347' model='brodoonx.discography'>
+            <field name='name'>JenDes</field>
+            <field name='budget'>400617</field>
+            <field name='owner' ref='brodoonx.player226'></field>
+            <field name='country' ref='brodoonx.country224'></field>
+        </record>
+        <record id='discography348' model='brodoonx.discography'>
+            <field name='name'>ArlLau</field>
+            <field name='budget'>556338</field>
+            <field name='owner' ref='brodoonx.player461'></field>
+            <field name='country' ref='brodoonx.country190'></field>
+        </record>
+        <record id='discography349' model='brodoonx.discography'>
+            <field name='name'>ElvBer</field>
+            <field name='budget'>719328</field>
+            <field name='owner' ref='brodoonx.player234'></field>
+            <field name='country' ref='brodoonx.country44'></field>
+        </record>
+        <record id='discography350' model='brodoonx.discography'>
+            <field name='name'>WilGem</field>
+            <field name='budget'>717917</field>
+            <field name='owner' ref='brodoonx.player182'></field>
+            <field name='country' ref='brodoonx.country150'></field>
+        </record>
+        <record id='discography351' model='brodoonx.discography'>
+            <field name='name'>MaiUir</field>
+            <field name='budget'>301842</field>
+            <field name='owner' ref='brodoonx.player480'></field>
+            <field name='country' ref='brodoonx.country174'></field>
+        </record>
+        <record id='discography352' model='brodoonx.discography'>
+            <field name='name'>KatDex</field>
+            <field name='budget'>67774</field>
+            <field name='owner' ref='brodoonx.player101'></field>
+            <field name='country' ref='brodoonx.country88'></field>
+        </record>
+        <record id='discography353' model='brodoonx.discography'>
+            <field name='name'>AshCod</field>
+            <field name='budget'>466140</field>
+            <field name='owner' ref='brodoonx.player372'></field>
+            <field name='country' ref='brodoonx.country164'></field>
+        </record>
+        <record id='discography354' model='brodoonx.discography'>
+            <field name='name'>TafFai</field>
+            <field name='budget'>620778</field>
+            <field name='owner' ref='brodoonx.player359'></field>
+            <field name='country' ref='brodoonx.country218'></field>
+        </record>
+        <record id='discography355' model='brodoonx.discography'>
+            <field name='name'>SusPro</field>
+            <field name='budget'>424786</field>
+            <field name='owner' ref='brodoonx.player217'></field>
+            <field name='country' ref='brodoonx.country93'></field>
+        </record>
+        <record id='discography356' model='brodoonx.discography'>
+            <field name='name'>TraRhe</field>
+            <field name='budget'>728066</field>
+            <field name='owner' ref='brodoonx.player372'></field>
+            <field name='country' ref='brodoonx.country12'></field>
+        </record>
+        <record id='discography357' model='brodoonx.discography'>
+            <field name='name'>CloHar</field>
+            <field name='budget'>976573</field>
+            <field name='owner' ref='brodoonx.player457'></field>
+            <field name='country' ref='brodoonx.country174'></field>
+        </record>
+        <record id='discography358' model='brodoonx.discography'>
+            <field name='name'>BelBor</field>
+            <field name='budget'>345746</field>
+            <field name='owner' ref='brodoonx.player391'></field>
+            <field name='country' ref='brodoonx.country186'></field>
+        </record>
+        <record id='discography359' model='brodoonx.discography'>
+            <field name='name'>KitWal</field>
+            <field name='budget'>322801</field>
+            <field name='owner' ref='brodoonx.player203'></field>
+            <field name='country' ref='brodoonx.country197'></field>
+        </record>
+        <record id='discography360' model='brodoonx.discography'>
+            <field name='name'>DorBur</field>
+            <field name='budget'>296905</field>
+            <field name='owner' ref='brodoonx.player113'></field>
+            <field name='country' ref='brodoonx.country92'></field>
+        </record>
+        <record id='discography361' model='brodoonx.discography'>
+            <field name='name'>IseNil</field>
+            <field name='budget'>168421</field>
+            <field name='owner' ref='brodoonx.player14'></field>
+            <field name='country' ref='brodoonx.country68'></field>
+        </record>
+        <record id='discography362' model='brodoonx.discography'>
+            <field name='name'>DieDam</field>
+            <field name='budget'>128998</field>
+            <field name='owner' ref='brodoonx.player191'></field>
+            <field name='country' ref='brodoonx.country229'></field>
+        </record>
+        <record id='discography363' model='brodoonx.discography'>
+            <field name='name'>EsmLud</field>
+            <field name='budget'>728282</field>
+            <field name='owner' ref='brodoonx.player98'></field>
+            <field name='country' ref='brodoonx.country31'></field>
+        </record>
+        <record id='discography364' model='brodoonx.discography'>
+            <field name='name'>MerPhy</field>
+            <field name='budget'>864802</field>
+            <field name='owner' ref='brodoonx.player304'></field>
+            <field name='country' ref='brodoonx.country128'></field>
+        </record>
+        <record id='discography365' model='brodoonx.discography'>
+            <field name='name'>MarCar</field>
+            <field name='budget'>306232</field>
+            <field name='owner' ref='brodoonx.player345'></field>
+            <field name='country' ref='brodoonx.country219'></field>
+        </record>
+        <record id='discography366' model='brodoonx.discography'>
+            <field name='name'>CisGib</field>
+            <field name='budget'>396840</field>
+            <field name='owner' ref='brodoonx.player93'></field>
+            <field name='country' ref='brodoonx.country128'></field>
+        </record>
+        <record id='discography367' model='brodoonx.discography'>
+            <field name='name'>GolBru</field>
+            <field name='budget'>954620</field>
+            <field name='owner' ref='brodoonx.player95'></field>
+            <field name='country' ref='brodoonx.country86'></field>
+        </record>
+        <record id='discography368' model='brodoonx.discography'>
+            <field name='name'>LucTou</field>
+            <field name='budget'>512807</field>
+            <field name='owner' ref='brodoonx.player260'></field>
+            <field name='country' ref='brodoonx.country198'></field>
+        </record>
+        <record id='discography369' model='brodoonx.discography'>
+            <field name='name'>KarCra</field>
+            <field name='budget'>424648</field>
+            <field name='owner' ref='brodoonx.player140'></field>
+            <field name='country' ref='brodoonx.country124'></field>
+        </record>
+        <record id='discography370' model='brodoonx.discography'>
+            <field name='name'>MarIng</field>
+            <field name='budget'>321661</field>
+            <field name='owner' ref='brodoonx.player386'></field>
+            <field name='country' ref='brodoonx.country92'></field>
+        </record>
+        <record id='discography371' model='brodoonx.discography'>
+            <field name='name'>ZiaBre</field>
+            <field name='budget'>961637</field>
+            <field name='owner' ref='brodoonx.player188'></field>
+            <field name='country' ref='brodoonx.country184'></field>
+        </record>
+        <record id='discography372' model='brodoonx.discography'>
+            <field name='name'>VinDae</field>
+            <field name='budget'>889064</field>
+            <field name='owner' ref='brodoonx.player185'></field>
+            <field name='country' ref='brodoonx.country89'></field>
+        </record>
+        <record id='discography373' model='brodoonx.discography'>
+            <field name='name'>DieDes</field>
+            <field name='budget'>722340</field>
+            <field name='owner' ref='brodoonx.player268'></field>
+            <field name='country' ref='brodoonx.country54'></field>
+        </record>
+        <record id='discography374' model='brodoonx.discography'>
+            <field name='name'>TriQue</field>
+            <field name='budget'>999851</field>
+            <field name='owner' ref='brodoonx.player72'></field>
+            <field name='country' ref='brodoonx.country73'></field>
+        </record>
+        <record id='discography375' model='brodoonx.discography'>
+            <field name='name'>ElfTyb</field>
+            <field name='budget'>163891</field>
+            <field name='owner' ref='brodoonx.player252'></field>
+            <field name='country' ref='brodoonx.country217'></field>
+        </record>
+        <record id='discography376' model='brodoonx.discography'>
+            <field name='name'>KarMat</field>
+            <field name='budget'>546023</field>
+            <field name='owner' ref='brodoonx.player107'></field>
+            <field name='country' ref='brodoonx.country96'></field>
+        </record>
+        <record id='discography377' model='brodoonx.discography'>
+            <field name='name'>AndGif</field>
+            <field name='budget'>697320</field>
+            <field name='owner' ref='brodoonx.player394'></field>
+            <field name='country' ref='brodoonx.country131'></field>
+        </record>
+        <record id='discography378' model='brodoonx.discography'>
+            <field name='name'>EliZin</field>
+            <field name='budget'>807140</field>
+            <field name='owner' ref='brodoonx.player100'></field>
+            <field name='country' ref='brodoonx.country43'></field>
+        </record>
+        <record id='discography379' model='brodoonx.discography'>
+            <field name='name'>HerCoo</field>
+            <field name='budget'>862116</field>
+            <field name='owner' ref='brodoonx.player130'></field>
+            <field name='country' ref='brodoonx.country84'></field>
+        </record>
+        <record id='discography380' model='brodoonx.discography'>
+            <field name='name'>FraTri</field>
+            <field name='budget'>927042</field>
+            <field name='owner' ref='brodoonx.player372'></field>
+            <field name='country' ref='brodoonx.country216'></field>
+        </record>
+        <record id='discography381' model='brodoonx.discography'>
+            <field name='name'>GavLow</field>
+            <field name='budget'>293727</field>
+            <field name='owner' ref='brodoonx.player434'></field>
+            <field name='country' ref='brodoonx.country108'></field>
+        </record>
+        <record id='discography382' model='brodoonx.discography'>
+            <field name='name'>WilNic</field>
+            <field name='budget'>924185</field>
+            <field name='owner' ref='brodoonx.player259'></field>
+            <field name='country' ref='brodoonx.country25'></field>
+        </record>
+        <record id='discography383' model='brodoonx.discography'>
+            <field name='name'>JeaRus</field>
+            <field name='budget'>883127</field>
+            <field name='owner' ref='brodoonx.player127'></field>
+            <field name='country' ref='brodoonx.country85'></field>
+        </record>
+        <record id='discography384' model='brodoonx.discography'>
+            <field name='name'>AnnFos</field>
+            <field name='budget'>313336</field>
+            <field name='owner' ref='brodoonx.player210'></field>
+            <field name='country' ref='brodoonx.country88'></field>
+        </record>
+        <record id='discography385' model='brodoonx.discography'>
+            <field name='name'>NeiBro</field>
+            <field name='budget'>381149</field>
+            <field name='owner' ref='brodoonx.player464'></field>
+            <field name='country' ref='brodoonx.country178'></field>
+        </record>
+        <record id='discography386' model='brodoonx.discography'>
+            <field name='name'>TheMal</field>
+            <field name='budget'>58385</field>
+            <field name='owner' ref='brodoonx.player409'></field>
+            <field name='country' ref='brodoonx.country154'></field>
+        </record>
+        <record id='discography387' model='brodoonx.discography'>
+            <field name='name'>AntBul</field>
+            <field name='budget'>578167</field>
+            <field name='owner' ref='brodoonx.player58'></field>
+            <field name='country' ref='brodoonx.country160'></field>
+        </record>
+        <record id='discography388' model='brodoonx.discography'>
+            <field name='name'>KenSha</field>
+            <field name='budget'>531080</field>
+            <field name='owner' ref='brodoonx.player4'></field>
+            <field name='country' ref='brodoonx.country16'></field>
+        </record>
+        <record id='discography389' model='brodoonx.discography'>
+            <field name='name'>TreBuc</field>
+            <field name='budget'>213849</field>
+            <field name='owner' ref='brodoonx.player186'></field>
+            <field name='country' ref='brodoonx.country122'></field>
+        </record>
+        <record id='discography390' model='brodoonx.discography'>
+            <field name='name'>JeaCut</field>
+            <field name='budget'>403673</field>
+            <field name='owner' ref='brodoonx.player414'></field>
+            <field name='country' ref='brodoonx.country123'></field>
+        </record>
+        <record id='discography391' model='brodoonx.discography'>
+            <field name='name'>EloTom</field>
+            <field name='budget'>576724</field>
+            <field name='owner' ref='brodoonx.player370'></field>
+            <field name='country' ref='brodoonx.country198'></field>
+        </record>
+        <record id='discography392' model='brodoonx.discography'>
+            <field name='name'>CarCor</field>
+            <field name='budget'>868133</field>
+            <field name='owner' ref='brodoonx.player245'></field>
+            <field name='country' ref='brodoonx.country56'></field>
+        </record>
+        <record id='discography393' model='brodoonx.discography'>
+            <field name='name'>MelSte</field>
+            <field name='budget'>576914</field>
+            <field name='owner' ref='brodoonx.player30'></field>
+            <field name='country' ref='brodoonx.country75'></field>
+        </record>
+        <record id='discography394' model='brodoonx.discography'>
+            <field name='name'>GlePip</field>
+            <field name='budget'>454388</field>
+            <field name='owner' ref='brodoonx.player397'></field>
+            <field name='country' ref='brodoonx.country72'></field>
+        </record>
+        <record id='discography395' model='brodoonx.discography'>
+            <field name='name'>SeaLon</field>
+            <field name='budget'>693868</field>
+            <field name='owner' ref='brodoonx.player448'></field>
+            <field name='country' ref='brodoonx.country123'></field>
+        </record>
+        <record id='discography396' model='brodoonx.discography'>
+            <field name='name'>AneChi</field>
+            <field name='budget'>330754</field>
+            <field name='owner' ref='brodoonx.player275'></field>
+            <field name='country' ref='brodoonx.country200'></field>
+        </record>
+        <record id='discography397' model='brodoonx.discography'>
+            <field name='name'>LorSau</field>
+            <field name='budget'>388089</field>
+            <field name='owner' ref='brodoonx.player458'></field>
+            <field name='country' ref='brodoonx.country7'></field>
+        </record>
+        <record id='discography398' model='brodoonx.discography'>
+            <field name='name'>TomHol</field>
+            <field name='budget'>66012</field>
+            <field name='owner' ref='brodoonx.player23'></field>
+            <field name='country' ref='brodoonx.country161'></field>
+        </record>
+        <record id='discography399' model='brodoonx.discography'>
+            <field name='name'>MyrJoa</field>
+            <field name='budget'>109477</field>
+            <field name='owner' ref='brodoonx.player249'></field>
+            <field name='country' ref='brodoonx.country60'></field>
+        </record>
+        <record id='discography400' model='brodoonx.discography'>
+            <field name='name'>ModTar</field>
+            <field name='budget'>708659</field>
+            <field name='owner' ref='brodoonx.player29'></field>
+            <field name='country' ref='brodoonx.country59'></field>
+        </record>
+        <record id='discography401' model='brodoonx.discography'>
+            <field name='name'>WilBel</field>
+            <field name='budget'>312522</field>
+            <field name='owner' ref='brodoonx.player133'></field>
+            <field name='country' ref='brodoonx.country95'></field>
+        </record>
+        <record id='discography402' model='brodoonx.discography'>
+            <field name='name'>VedKan</field>
+            <field name='budget'>494089</field>
+            <field name='owner' ref='brodoonx.player16'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography403' model='brodoonx.discography'>
+            <field name='name'>CodAll</field>
+            <field name='budget'>461113</field>
+            <field name='owner' ref='brodoonx.player266'></field>
+            <field name='country' ref='brodoonx.country112'></field>
+        </record>
+        <record id='discography404' model='brodoonx.discography'>
+            <field name='name'>AnnArt</field>
+            <field name='budget'>422129</field>
+            <field name='owner' ref='brodoonx.player336'></field>
+            <field name='country' ref='brodoonx.country121'></field>
+        </record>
+        <record id='discography405' model='brodoonx.discography'>
+            <field name='name'>MadJan</field>
+            <field name='budget'>801145</field>
+            <field name='owner' ref='brodoonx.player161'></field>
+            <field name='country' ref='brodoonx.country207'></field>
+        </record>
+        <record id='discography406' model='brodoonx.discography'>
+            <field name='name'>BevGer</field>
+            <field name='budget'>936951</field>
+            <field name='owner' ref='brodoonx.player319'></field>
+            <field name='country' ref='brodoonx.country216'></field>
+        </record>
+        <record id='discography407' model='brodoonx.discography'>
+            <field name='name'>KenBla</field>
+            <field name='budget'>515914</field>
+            <field name='owner' ref='brodoonx.player376'></field>
+            <field name='country' ref='brodoonx.country94'></field>
+        </record>
+        <record id='discography408' model='brodoonx.discography'>
+            <field name='name'>KitSch</field>
+            <field name='budget'>983260</field>
+            <field name='owner' ref='brodoonx.player51'></field>
+            <field name='country' ref='brodoonx.country120'></field>
+        </record>
+        <record id='discography409' model='brodoonx.discography'>
+            <field name='name'>FraRei</field>
+            <field name='budget'>104035</field>
+            <field name='owner' ref='brodoonx.player426'></field>
+            <field name='country' ref='brodoonx.country209'></field>
+        </record>
+        <record id='discography410' model='brodoonx.discography'>
+            <field name='name'>DamIve</field>
+            <field name='budget'>114986</field>
+            <field name='owner' ref='brodoonx.player56'></field>
+            <field name='country' ref='brodoonx.country9'></field>
+        </record>
+        <record id='discography411' model='brodoonx.discography'>
+            <field name='name'>RhoDom</field>
+            <field name='budget'>491880</field>
+            <field name='owner' ref='brodoonx.player290'></field>
+            <field name='country' ref='brodoonx.country108'></field>
+        </record>
+        <record id='discography412' model='brodoonx.discography'>
+            <field name='name'>DulBau</field>
+            <field name='budget'>102949</field>
+            <field name='owner' ref='brodoonx.player228'></field>
+            <field name='country' ref='brodoonx.country220'></field>
+        </record>
+        <record id='discography413' model='brodoonx.discography'>
+            <field name='name'>BriEri</field>
+            <field name='budget'>809180</field>
+            <field name='owner' ref='brodoonx.player313'></field>
+            <field name='country' ref='brodoonx.country43'></field>
+        </record>
+        <record id='discography414' model='brodoonx.discography'>
+            <field name='name'>TifRiv</field>
+            <field name='budget'>334735</field>
+            <field name='owner' ref='brodoonx.player445'></field>
+            <field name='country' ref='brodoonx.country30'></field>
+        </record>
+        <record id='discography415' model='brodoonx.discography'>
+            <field name='name'>OlwNat</field>
+            <field name='budget'>222022</field>
+            <field name='owner' ref='brodoonx.player311'></field>
+            <field name='country' ref='brodoonx.country190'></field>
+        </record>
+        <record id='discography416' model='brodoonx.discography'>
+            <field name='name'>SheSyd</field>
+            <field name='budget'>436340</field>
+            <field name='owner' ref='brodoonx.player212'></field>
+            <field name='country' ref='brodoonx.country127'></field>
+        </record>
+        <record id='discography417' model='brodoonx.discography'>
+            <field name='name'>AnnNun</field>
+            <field name='budget'>995050</field>
+            <field name='owner' ref='brodoonx.player275'></field>
+            <field name='country' ref='brodoonx.country137'></field>
+        </record>
+        <record id='discography418' model='brodoonx.discography'>
+            <field name='name'>MarAna</field>
+            <field name='budget'>127461</field>
+            <field name='owner' ref='brodoonx.player482'></field>
+            <field name='country' ref='brodoonx.country181'></field>
+        </record>
+        <record id='discography419' model='brodoonx.discography'>
+            <field name='name'>AleJua</field>
+            <field name='budget'>341192</field>
+            <field name='owner' ref='brodoonx.player51'></field>
+            <field name='country' ref='brodoonx.country24'></field>
+        </record>
+        <record id='discography420' model='brodoonx.discography'>
+            <field name='name'>JaiJon</field>
+            <field name='budget'>945126</field>
+            <field name='owner' ref='brodoonx.player266'></field>
+            <field name='country' ref='brodoonx.country119'></field>
+        </record>
+        <record id='discography421' model='brodoonx.discography'>
+            <field name='name'>JunAlf</field>
+            <field name='budget'>432082</field>
+            <field name='owner' ref='brodoonx.player226'></field>
+            <field name='country' ref='brodoonx.country215'></field>
+        </record>
+        <record id='discography422' model='brodoonx.discography'>
+            <field name='name'>WenSun</field>
+            <field name='budget'>506201</field>
+            <field name='owner' ref='brodoonx.player386'></field>
+            <field name='country' ref='brodoonx.country95'></field>
+        </record>
+        <record id='discography423' model='brodoonx.discography'>
+            <field name='name'>NeiSch</field>
+            <field name='budget'>184438</field>
+            <field name='owner' ref='brodoonx.player273'></field>
+            <field name='country' ref='brodoonx.country31'></field>
+        </record>
+        <record id='discography424' model='brodoonx.discography'>
+            <field name='name'>JanAbe</field>
+            <field name='budget'>925136</field>
+            <field name='owner' ref='brodoonx.player199'></field>
+            <field name='country' ref='brodoonx.country98'></field>
+        </record>
+        <record id='discography425' model='brodoonx.discography'>
+            <field name='name'>ShaAlf</field>
+            <field name='budget'>409850</field>
+            <field name='owner' ref='brodoonx.player180'></field>
+            <field name='country' ref='brodoonx.country228'></field>
+        </record>
+        <record id='discography426' model='brodoonx.discography'>
+            <field name='name'>SuzEck</field>
+            <field name='budget'>358438</field>
+            <field name='owner' ref='brodoonx.player420'></field>
+            <field name='country' ref='brodoonx.country111'></field>
+        </record>
+        <record id='discography427' model='brodoonx.discography'>
+            <field name='name'>MarMod</field>
+            <field name='budget'>445851</field>
+            <field name='owner' ref='brodoonx.player195'></field>
+            <field name='country' ref='brodoonx.country79'></field>
+        </record>
+        <record id='discography428' model='brodoonx.discography'>
+            <field name='name'>LeoSim</field>
+            <field name='budget'>331577</field>
+            <field name='owner' ref='brodoonx.player12'></field>
+            <field name='country' ref='brodoonx.country214'></field>
+        </record>
+        <record id='discography429' model='brodoonx.discography'>
+            <field name='name'>FreSad</field>
+            <field name='budget'>622203</field>
+            <field name='owner' ref='brodoonx.player36'></field>
+            <field name='country' ref='brodoonx.country6'></field>
+        </record>
+        <record id='discography430' model='brodoonx.discography'>
+            <field name='name'>NanDaw</field>
+            <field name='budget'>500833</field>
+            <field name='owner' ref='brodoonx.player449'></field>
+            <field name='country' ref='brodoonx.country223'></field>
+        </record>
+        <record id='discography431' model='brodoonx.discography'>
+            <field name='name'>TheSal</field>
+            <field name='budget'>884111</field>
+            <field name='owner' ref='brodoonx.player30'></field>
+            <field name='country' ref='brodoonx.country137'></field>
+        </record>
+        <record id='discography432' model='brodoonx.discography'>
+            <field name='name'>GeoMcN</field>
+            <field name='budget'>581952</field>
+            <field name='owner' ref='brodoonx.player279'></field>
+            <field name='country' ref='brodoonx.country221'></field>
+        </record>
+        <record id='discography433' model='brodoonx.discography'>
+            <field name='name'>BriAle</field>
+            <field name='budget'>895293</field>
+            <field name='owner' ref='brodoonx.player131'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography434' model='brodoonx.discography'>
+            <field name='name'>ArlShe</field>
+            <field name='budget'>304584</field>
+            <field name='owner' ref='brodoonx.player78'></field>
+            <field name='country' ref='brodoonx.country146'></field>
+        </record>
+        <record id='discography435' model='brodoonx.discography'>
+            <field name='name'>VioChe</field>
+            <field name='budget'>242520</field>
+            <field name='owner' ref='brodoonx.player448'></field>
+            <field name='country' ref='brodoonx.country144'></field>
+        </record>
+        <record id='discography436' model='brodoonx.discography'>
+            <field name='name'>PhiJun</field>
+            <field name='budget'>949211</field>
+            <field name='owner' ref='brodoonx.player157'></field>
+            <field name='country' ref='brodoonx.country166'></field>
+        </record>
+        <record id='discography437' model='brodoonx.discography'>
+            <field name='name'>AnnOgr</field>
+            <field name='budget'>612064</field>
+            <field name='owner' ref='brodoonx.player285'></field>
+            <field name='country' ref='brodoonx.country158'></field>
+        </record>
+        <record id='discography438' model='brodoonx.discography'>
+            <field name='name'>RosKle</field>
+            <field name='budget'>755877</field>
+            <field name='owner' ref='brodoonx.player164'></field>
+            <field name='country' ref='brodoonx.country65'></field>
+        </record>
+        <record id='discography439' model='brodoonx.discography'>
+            <field name='name'>SanTim</field>
+            <field name='budget'>102041</field>
+            <field name='owner' ref='brodoonx.player202'></field>
+            <field name='country' ref='brodoonx.country187'></field>
+        </record>
+        <record id='discography440' model='brodoonx.discography'>
+            <field name='name'>NicMen</field>
+            <field name='budget'>981403</field>
+            <field name='owner' ref='brodoonx.player447'></field>
+            <field name='country' ref='brodoonx.country199'></field>
+        </record>
+        <record id='discography441' model='brodoonx.discography'>
+            <field name='name'>DelEdv</field>
+            <field name='budget'>529256</field>
+            <field name='owner' ref='brodoonx.player387'></field>
+            <field name='country' ref='brodoonx.country203'></field>
+        </record>
+        <record id='discography442' model='brodoonx.discography'>
+            <field name='name'>MisDie</field>
+            <field name='budget'>532777</field>
+            <field name='owner' ref='brodoonx.player17'></field>
+            <field name='country' ref='brodoonx.country234'></field>
+        </record>
+        <record id='discography443' model='brodoonx.discography'>
+            <field name='name'>AraFen</field>
+            <field name='budget'>19730</field>
+            <field name='owner' ref='brodoonx.player499'></field>
+            <field name='country' ref='brodoonx.country49'></field>
+        </record>
+        <record id='discography444' model='brodoonx.discography'>
+            <field name='name'>DesQue</field>
+            <field name='budget'>232769</field>
+            <field name='owner' ref='brodoonx.player103'></field>
+            <field name='country' ref='brodoonx.country100'></field>
+        </record>
+        <record id='discography445' model='brodoonx.discography'>
+            <field name='name'>MinApr</field>
+            <field name='budget'>658148</field>
+            <field name='owner' ref='brodoonx.player25'></field>
+            <field name='country' ref='brodoonx.country125'></field>
+        </record>
+        <record id='discography446' model='brodoonx.discography'>
+            <field name='name'>MolTha</field>
+            <field name='budget'>703751</field>
+            <field name='owner' ref='brodoonx.player147'></field>
+            <field name='country' ref='brodoonx.country126'></field>
+        </record>
+        <record id='discography447' model='brodoonx.discography'>
+            <field name='name'>BreMai</field>
+            <field name='budget'>336217</field>
+            <field name='owner' ref='brodoonx.player84'></field>
+            <field name='country' ref='brodoonx.country129'></field>
+        </record>
+        <record id='discography448' model='brodoonx.discography'>
+            <field name='name'>CatBar</field>
+            <field name='budget'>212582</field>
+            <field name='owner' ref='brodoonx.player425'></field>
+            <field name='country' ref='brodoonx.country182'></field>
+        </record>
+        <record id='discography449' model='brodoonx.discography'>
+            <field name='name'>AlyWai</field>
+            <field name='budget'>62385</field>
+            <field name='owner' ref='brodoonx.player331'></field>
+            <field name='country' ref='brodoonx.country227'></field>
+        </record>
+        <record id='discography450' model='brodoonx.discography'>
+            <field name='name'>SasPal</field>
+            <field name='budget'>106485</field>
+            <field name='owner' ref='brodoonx.player184'></field>
+            <field name='country' ref='brodoonx.country132'></field>
+        </record>
+        <record id='discography451' model='brodoonx.discography'>
+            <field name='name'>AudGor</field>
+            <field name='budget'>409634</field>
+            <field name='owner' ref='brodoonx.player243'></field>
+            <field name='country' ref='brodoonx.country144'></field>
+        </record>
+        <record id='discography452' model='brodoonx.discography'>
+            <field name='name'>KatScr</field>
+            <field name='budget'>431969</field>
+            <field name='owner' ref='brodoonx.player470'></field>
+            <field name='country' ref='brodoonx.country82'></field>
+        </record>
+        <record id='discography453' model='brodoonx.discography'>
+            <field name='name'>LinMat</field>
+            <field name='budget'>666737</field>
+            <field name='owner' ref='brodoonx.player186'></field>
+            <field name='country' ref='brodoonx.country195'></field>
+        </record>
+        <record id='discography454' model='brodoonx.discography'>
+            <field name='name'>BibEls</field>
+            <field name='budget'>777648</field>
+            <field name='owner' ref='brodoonx.player182'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography455' model='brodoonx.discography'>
+            <field name='name'>JesLow</field>
+            <field name='budget'>577587</field>
+            <field name='owner' ref='brodoonx.player101'></field>
+            <field name='country' ref='brodoonx.country197'></field>
+        </record>
+        <record id='discography456' model='brodoonx.discography'>
+            <field name='name'>ThaShi</field>
+            <field name='budget'>856536</field>
+            <field name='owner' ref='brodoonx.player78'></field>
+            <field name='country' ref='brodoonx.country41'></field>
+        </record>
+        <record id='discography457' model='brodoonx.discography'>
+            <field name='name'>JoeArt</field>
+            <field name='budget'>400749</field>
+            <field name='owner' ref='brodoonx.player359'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography458' model='brodoonx.discography'>
+            <field name='name'>FloRev</field>
+            <field name='budget'>475109</field>
+            <field name='owner' ref='brodoonx.player142'></field>
+            <field name='country' ref='brodoonx.country206'></field>
+        </record>
+        <record id='discography459' model='brodoonx.discography'>
+            <field name='name'>DonSua</field>
+            <field name='budget'>187188</field>
+            <field name='owner' ref='brodoonx.player172'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography460' model='brodoonx.discography'>
+            <field name='name'>PerEsm</field>
+            <field name='budget'>832709</field>
+            <field name='owner' ref='brodoonx.player134'></field>
+            <field name='country' ref='brodoonx.country100'></field>
+        </record>
+        <record id='discography461' model='brodoonx.discography'>
+            <field name='name'>GweTha</field>
+            <field name='budget'>515778</field>
+            <field name='owner' ref='brodoonx.player442'></field>
+            <field name='country' ref='brodoonx.country32'></field>
+        </record>
+        <record id='discography462' model='brodoonx.discography'>
+            <field name='name'>IraHar</field>
+            <field name='budget'>33135</field>
+            <field name='owner' ref='brodoonx.player304'></field>
+            <field name='country' ref='brodoonx.country122'></field>
+        </record>
+        <record id='discography463' model='brodoonx.discography'>
+            <field name='name'>DorErs</field>
+            <field name='budget'>679999</field>
+            <field name='owner' ref='brodoonx.player127'></field>
+            <field name='country' ref='brodoonx.country131'></field>
+        </record>
+        <record id='discography464' model='brodoonx.discography'>
+            <field name='name'>GabPen</field>
+            <field name='budget'>877422</field>
+            <field name='owner' ref='brodoonx.player283'></field>
+            <field name='country' ref='brodoonx.country183'></field>
+        </record>
+        <record id='discography465' model='brodoonx.discography'>
+            <field name='name'>MisNis</field>
+            <field name='budget'>808485</field>
+            <field name='owner' ref='brodoonx.player363'></field>
+            <field name='country' ref='brodoonx.country130'></field>
+        </record>
+        <record id='discography466' model='brodoonx.discography'>
+            <field name='name'>CarTay</field>
+            <field name='budget'>669002</field>
+            <field name='owner' ref='brodoonx.player71'></field>
+            <field name='country' ref='brodoonx.country115'></field>
+        </record>
+        <record id='discography467' model='brodoonx.discography'>
+            <field name='name'>SheAll</field>
+            <field name='budget'>751279</field>
+            <field name='owner' ref='brodoonx.player434'></field>
+            <field name='country' ref='brodoonx.country208'></field>
+        </record>
+        <record id='discography468' model='brodoonx.discography'>
+            <field name='name'>EboBlu</field>
+            <field name='budget'>348686</field>
+            <field name='owner' ref='brodoonx.player302'></field>
+            <field name='country' ref='brodoonx.country210'></field>
+        </record>
+        <record id='discography469' model='brodoonx.discography'>
+            <field name='name'>DorSun</field>
+            <field name='budget'>985907</field>
+            <field name='owner' ref='brodoonx.player380'></field>
+            <field name='country' ref='brodoonx.country215'></field>
+        </record>
+        <record id='discography470' model='brodoonx.discography'>
+            <field name='name'>PhiXer</field>
+            <field name='budget'>63487</field>
+            <field name='owner' ref='brodoonx.player368'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography471' model='brodoonx.discography'>
+            <field name='name'>EdyAli</field>
+            <field name='budget'>587734</field>
+            <field name='owner' ref='brodoonx.player415'></field>
+            <field name='country' ref='brodoonx.country205'></field>
+        </record>
+        <record id='discography472' model='brodoonx.discography'>
+            <field name='name'>RozOth</field>
+            <field name='budget'>617542</field>
+            <field name='owner' ref='brodoonx.player49'></field>
+            <field name='country' ref='brodoonx.country232'></field>
+        </record>
+        <record id='discography473' model='brodoonx.discography'>
+            <field name='name'>KarFia</field>
+            <field name='budget'>842712</field>
+            <field name='owner' ref='brodoonx.player457'></field>
+            <field name='country' ref='brodoonx.country158'></field>
+        </record>
+        <record id='discography474' model='brodoonx.discography'>
+            <field name='name'>FidCon</field>
+            <field name='budget'>894194</field>
+            <field name='owner' ref='brodoonx.player228'></field>
+            <field name='country' ref='brodoonx.country81'></field>
+        </record>
+        <record id='discography475' model='brodoonx.discography'>
+            <field name='name'>MarMic</field>
+            <field name='budget'>916836</field>
+            <field name='owner' ref='brodoonx.player214'></field>
+            <field name='country' ref='brodoonx.country146'></field>
+        </record>
+        <record id='discography476' model='brodoonx.discography'>
+            <field name='name'>LucDar</field>
+            <field name='budget'>135289</field>
+            <field name='owner' ref='brodoonx.player382'></field>
+            <field name='country' ref='brodoonx.country207'></field>
+        </record>
+        <record id='discography477' model='brodoonx.discography'>
+            <field name='name'>LeeEll</field>
+            <field name='budget'>654914</field>
+            <field name='owner' ref='brodoonx.player464'></field>
+            <field name='country' ref='brodoonx.country143'></field>
+        </record>
+        <record id='discography478' model='brodoonx.discography'>
+            <field name='name'>HarHar</field>
+            <field name='budget'>647016</field>
+            <field name='owner' ref='brodoonx.player351'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography479' model='brodoonx.discography'>
+            <field name='name'>SusVan</field>
+            <field name='budget'>525295</field>
+            <field name='owner' ref='brodoonx.player269'></field>
+            <field name='country' ref='brodoonx.country52'></field>
+        </record>
+        <record id='discography480' model='brodoonx.discography'>
+            <field name='name'>SheLea</field>
+            <field name='budget'>940627</field>
+            <field name='owner' ref='brodoonx.player40'></field>
+            <field name='country' ref='brodoonx.country150'></field>
+        </record>
+        <record id='discography481' model='brodoonx.discography'>
+            <field name='name'>VivLis</field>
+            <field name='budget'>102949</field>
+            <field name='owner' ref='brodoonx.player424'></field>
+            <field name='country' ref='brodoonx.country34'></field>
+        </record>
+        <record id='discography482' model='brodoonx.discography'>
+            <field name='name'>BriDee</field>
+            <field name='budget'>522884</field>
+            <field name='owner' ref='brodoonx.player377'></field>
+            <field name='country' ref='brodoonx.country119'></field>
+        </record>
+        <record id='discography483' model='brodoonx.discography'>
+            <field name='name'>BriMit</field>
+            <field name='budget'>755608</field>
+            <field name='owner' ref='brodoonx.player81'></field>
+            <field name='country' ref='brodoonx.country106'></field>
+        </record>
+        <record id='discography484' model='brodoonx.discography'>
+            <field name='name'>AilKre</field>
+            <field name='budget'>559438</field>
+            <field name='owner' ref='brodoonx.player34'></field>
+            <field name='country' ref='brodoonx.country69'></field>
+        </record>
+        <record id='discography485' model='brodoonx.discography'>
+            <field name='name'>MorTou</field>
+            <field name='budget'>870373</field>
+            <field name='owner' ref='brodoonx.player264'></field>
+            <field name='country' ref='brodoonx.country217'></field>
+        </record>
+        <record id='discography486' model='brodoonx.discography'>
+            <field name='name'>IseBry</field>
+            <field name='budget'>766447</field>
+            <field name='owner' ref='brodoonx.player394'></field>
+            <field name='country' ref='brodoonx.country128'></field>
+        </record>
+        <record id='discography487' model='brodoonx.discography'>
+            <field name='name'>YolWen</field>
+            <field name='budget'>24245</field>
+            <field name='owner' ref='brodoonx.player320'></field>
+            <field name='country' ref='brodoonx.country178'></field>
+        </record>
+        <record id='discography488' model='brodoonx.discography'>
+            <field name='name'>ZiaCla</field>
+            <field name='budget'>300091</field>
+            <field name='owner' ref='brodoonx.player122'></field>
+            <field name='country' ref='brodoonx.country68'></field>
+        </record>
+        <record id='discography489' model='brodoonx.discography'>
+            <field name='name'>TabRam</field>
+            <field name='budget'>385315</field>
+            <field name='owner' ref='brodoonx.player262'></field>
+            <field name='country' ref='brodoonx.country1'></field>
+        </record>
+        <record id='discography490' model='brodoonx.discography'>
+            <field name='name'>MolBet</field>
+            <field name='budget'>74142</field>
+            <field name='owner' ref='brodoonx.player261'></field>
+            <field name='country' ref='brodoonx.country123'></field>
+        </record>
+        <record id='discography491' model='brodoonx.discography'>
+            <field name='name'>AlyJoa</field>
+            <field name='budget'>270442</field>
+            <field name='owner' ref='brodoonx.player265'></field>
+            <field name='country' ref='brodoonx.country123'></field>
+        </record>
+        <record id='discography492' model='brodoonx.discography'>
+            <field name='name'>BerTuf</field>
+            <field name='budget'>416323</field>
+            <field name='owner' ref='brodoonx.player425'></field>
+            <field name='country' ref='brodoonx.country174'></field>
+        </record>
+        <record id='discography493' model='brodoonx.discography'>
+            <field name='name'>LeoJos</field>
+            <field name='budget'>310575</field>
+            <field name='owner' ref='brodoonx.player431'></field>
+            <field name='country' ref='brodoonx.country230'></field>
+        </record>
+        <record id='discography494' model='brodoonx.discography'>
+            <field name='name'>EboArl</field>
+            <field name='budget'>37944</field>
+            <field name='owner' ref='brodoonx.player222'></field>
+            <field name='country' ref='brodoonx.country209'></field>
+        </record>
+        <record id='discography495' model='brodoonx.discography'>
+            <field name='name'>MadBra</field>
+            <field name='budget'>998355</field>
+            <field name='owner' ref='brodoonx.player6'></field>
+            <field name='country' ref='brodoonx.country28'></field>
+        </record>
+        <record id='discography496' model='brodoonx.discography'>
+            <field name='name'>DorDun</field>
+            <field name='budget'>560610</field>
+            <field name='owner' ref='brodoonx.player262'></field>
+            <field name='country' ref='brodoonx.country139'></field>
+        </record>
+        <record id='discography497' model='brodoonx.discography'>
+            <field name='name'>LinAst</field>
+            <field name='budget'>144966</field>
+            <field name='owner' ref='brodoonx.player421'></field>
+            <field name='country' ref='brodoonx.country42'></field>
+        </record>
+        <record id='discography498' model='brodoonx.discography'>
+            <field name='name'>LorSib</field>
+            <field name='budget'>113309</field>
+            <field name='owner' ref='brodoonx.player142'></field>
+            <field name='country' ref='brodoonx.country73'></field>
+        </record>
+        <record id='discography499' model='brodoonx.discography'>
+            <field name='name'>EmeAll</field>
+            <field name='budget'>59781</field>
+            <field name='owner' ref='brodoonx.player136'></field>
+            <field name='country' ref='brodoonx.country99'></field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record id="examen.viatge_tree" model="ir.ui.view">
+            <field name="name">examen.viatge.tree</field>
+            <field name="model">examen.viatge</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="conductor"/>
+                    <field name="viatge_id" />
+                    <field name="furgoneta" />
+                    <field name="paquets" />
+                    <field name="metres_aprofitats" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="examen.viatge_view_search" model="ir.ui.view">
+            <field name="name">examen.viatge.view.search</field>
+            <field name="model">examen.viatge</field>
+            <field name="arch" type="xml">
+                <search string="">
+                    <field name="conductor"/>
+                    <field name="viatge_id" />
+                    <field name="furgoneta" />
+                    <field name="paquets" />
+                    <field name="metres_aprofitats" />
+                    <filter name="group_by_frago" string="Viajes Agrupados Por Furgoneta" context="{'group_by': 'furgoneta'}" />
+
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

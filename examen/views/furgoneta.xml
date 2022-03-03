@@ -1,0 +1,59 @@
+<odoo>
+    <data>
+        <record id="examen.furgoneta_tree" model="ir.ui.view">
+            <field name="name">examen.furgoneta.tree</field>
+            <field name="model">examen.furgoneta</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="matricula" />
+                    <field name="capacitat" />
+                    <field name="paquets" widget='many2many_tags' />
+                </tree>
+            </field>
+        </record>
+
+        <record id="examen.furgoneta_view_form" model="ir.ui.view">
+            <field name="name">examen.furgoneta.view.form</field>
+            <field name="model">examen.furgoneta</field>
+            <field name="arch" type="xml">
+                 <form>
+                    <header>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Dades de la furgoneta"></separator>
+                                <field name="matricula"/>
+                                <field name="capacitat" />
+                                <field name="image" />
+                            </group>
+                            
+                                <group><separator string="Dades de la furgoneta"></separator></group>
+                                <notebook>
+                                
+                                    <page string="Viatges">
+                                        <field name="viatges">
+                                            <tree>
+                                                <field name="conductor"/>
+                                                <field name="viatge_id" />
+                                                <field name="metres_aprofitats" />
+                                            </tree>
+                                        </field>
+                                    </page>
+                                    <page string="Paquets">
+                                        <field name="paquets">
+                                            <tree>
+                                                <field name="paquet_id"/>
+                                                <field name="volum" />
+                                            </tree>
+                                        </field>
+                                    </page>
+
+                                </notebook>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

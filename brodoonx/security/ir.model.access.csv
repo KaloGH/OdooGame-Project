@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_brodoonx_discography,brodoonx.discography,model_brodoonx_discography,base.group_user,1,1,1,1
+access_brodoonx_artist,brodoonx.artist,model_brodoonx_artist,base.group_user,1,1,1,1
+access_brodoonx_song,brodoonx.song,model_brodoonx_song,base.group_user,1,1,1,1
+access_brodoonx_musical_genre,brodoonx.musical_genre,model_brodoonx_musical_genre,base.group_user,1,1,1,1
+access_brodoonx_country,brodoonx.country,model_brodoonx_country,base.group_user,1,1,1,1
+access_brodoonx_events,brodoonx.events,model_brodoonx_events,base.group_user,1,1,1,1
+access_brodoonx_player_progress,brodoonx.player_progress,model_brodoonx_player_progress,base.group_user,1,1,1,1
+access_brodoonx_discography_wizard,brodoonx.discography_wizard,model_brodoonx_discography_wizard,base.group_user,1,1,1,1
+access_brodoonx.artist_transient,brodoonx.artist_transient,model_brodoonx_artist_transient,base.group_user,1,1,1,1
+access_brodoonx.battle_wizard,brodoonx.battle_wizard,model_brodoonx_battle_wizard,base.group_user,1,1,1,
+access_brodoonx.battle,brodoonx.battle,model_brodoonx_battle,base.group_user,1,1,1,1
+
+
+

@@ -1,0 +1,944 @@
+<odoo>
+    <data>
+        <record id='country1' model='brodoonx.country'>
+            <field name='name'>China</field>
+            <field name='population'>1440297825</field>
+        </record>
+        <record id='country2' model='brodoonx.country'>
+            <field name='name'>India</field>
+            <field name='population'>1382345085</field>
+        </record>
+        <record id='country3' model='brodoonx.country'>
+            <field name='name'>United States</field>
+            <field name='population'>331341050</field>
+        </record>
+        <record id='country4' model='brodoonx.country'>
+            <field name='name'>Indonesia</field>
+            <field name='population'>274021604</field>
+        </record>
+        <record id='country5' model='brodoonx.country'>
+            <field name='name'>Pakistan</field>
+            <field name='population'>221612785</field>
+        </record>
+        <record id='country6' model='brodoonx.country'>
+            <field name='name'>Brazil</field>
+            <field name='population'>212821986</field>
+        </record>
+        <record id='country7' model='brodoonx.country'>
+            <field name='name'>Nigeria</field>
+            <field name='population'>206984347</field>
+        </record>
+        <record id='country8' model='brodoonx.country'>
+            <field name='name'>Bangladesh</field>
+            <field name='population'>164972348</field>
+        </record>
+        <record id='country9' model='brodoonx.country'>
+            <field name='name'>Russia</field>
+            <field name='population'>145945524</field>
+        </record>
+        <record id='country10' model='brodoonx.country'>
+            <field name='name'>Mexico</field>
+            <field name='population'>129166028</field>
+        </record>
+        <record id='country11' model='brodoonx.country'>
+            <field name='name'>Japan</field>
+            <field name='population'>126407422</field>
+        </record>
+        <record id='country12' model='brodoonx.country'>
+            <field name='name'>Ethiopia</field>
+            <field name='population'>115434444</field>
+        </record>
+        <record id='country13' model='brodoonx.country'>
+            <field name='name'>Philippines</field>
+            <field name='population'>109830324</field>
+        </record>
+        <record id='country14' model='brodoonx.country'>
+            <field name='name'>Egypt</field>
+            <field name='population'>102659126</field>
+        </record>
+        <record id='country15' model='brodoonx.country'>
+            <field name='name'>Vietnam</field>
+            <field name='population'>97490013</field>
+        </record>
+        <record id='country16' model='brodoonx.country'>
+            <field name='name'>DR Congo</field>
+            <field name='population'>90003954</field>
+        </record>
+        <record id='country17' model='brodoonx.country'>
+            <field name='name'>Turkey</field>
+            <field name='population'>84495243</field>
+        </record>
+        <record id='country18' model='brodoonx.country'>
+            <field name='name'>Iran</field>
+            <field name='population'>84176929</field>
+        </record>
+        <record id='country19' model='brodoonx.country'>
+            <field name='name'>Germany</field>
+            <field name='population'>83830972</field>
+        </record>
+        <record id='country20' model='brodoonx.country'>
+            <field name='name'>Thailand</field>
+            <field name='population'>69830779</field>
+        </record>
+        <record id='country21' model='brodoonx.country'>
+            <field name='name'>United Kingdom</field>
+            <field name='population'>67948282</field>
+        </record>
+        <record id='country22' model='brodoonx.country'>
+            <field name='name'>France</field>
+            <field name='population'>65298930</field>
+        </record>
+        <record id='country23' model='brodoonx.country'>
+            <field name='name'>Italy</field>
+            <field name='population'>60446035</field>
+        </record>
+        <record id='country24' model='brodoonx.country'>
+            <field name='name'>Tanzania</field>
+            <field name='population'>60012400</field>
+        </record>
+        <record id='country25' model='brodoonx.country'>
+            <field name='name'>South Africa</field>
+            <field name='population'>59436725</field>
+        </record>
+        <record id='country26' model='brodoonx.country'>
+            <field name='name'>Myanmar</field>
+            <field name='population'>54473253</field>
+        </record>
+        <record id='country27' model='brodoonx.country'>
+            <field name='name'>Kenya</field>
+            <field name='population'>53968739</field>
+        </record>
+        <record id='country28' model='brodoonx.country'>
+            <field name='name'>South Korea</field>
+            <field name='population'>51276977</field>
+        </record>
+        <record id='country29' model='brodoonx.country'>
+            <field name='name'>Colombia</field>
+            <field name='population'>50976248</field>
+        </record>
+        <record id='country30' model='brodoonx.country'>
+            <field name='name'>Spain</field>
+            <field name='population'>46757980</field>
+        </record>
+        <record id='country31' model='brodoonx.country'>
+            <field name='name'>Uganda</field>
+            <field name='population'>45974931</field>
+        </record>
+        <record id='country32' model='brodoonx.country'>
+            <field name='name'>Argentina</field>
+            <field name='population'>45267449</field>
+        </record>
+        <record id='country33' model='brodoonx.country'>
+            <field name='name'>Algeria</field>
+            <field name='population'>43984569</field>
+        </record>
+        <record id='country34' model='brodoonx.country'>
+            <field name='name'>Sudan</field>
+            <field name='population'>44019263</field>
+        </record>
+        <record id='country35' model='brodoonx.country'>
+            <field name='name'>Ukraine</field>
+            <field name='population'>43686577</field>
+        </record>
+        <record id='country36' model='brodoonx.country'>
+            <field name='name'>Iraq</field>
+            <field name='population'>40372771</field>
+        </record>
+        <record id='country37' model='brodoonx.country'>
+            <field name='name'>Afghanistan</field>
+            <field name='population'>39074280</field>
+        </record>
+        <record id='country38' model='brodoonx.country'>
+            <field name='name'>Poland</field>
+            <field name='population'>37839255</field>
+        </record>
+        <record id='country39' model='brodoonx.country'>
+            <field name='name'>Canada</field>
+            <field name='population'>37799407</field>
+        </record>
+        <record id='country40' model='brodoonx.country'>
+            <field name='name'>Morocco</field>
+            <field name='population'>36985624</field>
+        </record>
+        <record id='country41' model='brodoonx.country'>
+            <field name='name'>Saudi Arabia</field>
+            <field name='population'>34905942</field>
+        </record>
+        <record id='country42' model='brodoonx.country'>
+            <field name='name'>Uzbekistan</field>
+            <field name='population'>33551824</field>
+        </record>
+        <record id='country43' model='brodoonx.country'>
+            <field name='name'>Peru</field>
+            <field name='population'>33050211</field>
+        </record>
+        <record id='country44' model='brodoonx.country'>
+            <field name='name'>Angola</field>
+            <field name='population'>33032075</field>
+        </record>
+        <record id='country45' model='brodoonx.country'>
+            <field name='name'>Malaysia</field>
+            <field name='population'>32436963</field>
+        </record>
+        <record id='country46' model='brodoonx.country'>
+            <field name='name'>Mozambique</field>
+            <field name='population'>31398811</field>
+        </record>
+        <record id='country47' model='brodoonx.country'>
+            <field name='name'>Ghana</field>
+            <field name='population'>31181428</field>
+        </record>
+        <record id='country48' model='brodoonx.country'>
+            <field name='name'>Yemen</field>
+            <field name='population'>29935468</field>
+        </record>
+        <record id='country49' model='brodoonx.country'>
+            <field name='name'>Nepal</field>
+            <field name='population'>29225196</field>
+        </record>
+        <record id='country50' model='brodoonx.country'>
+            <field name='name'>Venezuela</field>
+            <field name='population'>28421581</field>
+        </record>
+        <record id='country51' model='brodoonx.country'>
+            <field name='name'>Madagascar</field>
+            <field name='population'>27808395</field>
+        </record>
+        <record id='country52' model='brodoonx.country'>
+            <field name='name'>Cameroon</field>
+            <field name='population'>26655083</field>
+        </record>
+        <record id='country53' model='brodoonx.country'>
+            <field name='name'>Côte d'Ivoire</field>
+            <field name='population'>26486282</field>
+        </record>
+        <record id='country54' model='brodoonx.country'>
+            <field name='name'>North Korea</field>
+            <field name='population'>25798588</field>
+        </record>
+        <record id='country55' model='brodoonx.country'>
+            <field name='name'>Australia</field>
+            <field name='population'>25550683</field>
+        </record>
+        <record id='country56' model='brodoonx.country'>
+            <field name='name'>Niger</field>
+            <field name='population'>24346468</field>
+        </record>
+        <record id='country57' model='brodoonx.country'>
+            <field name='name'>Taiwan</field>
+            <field name='population'>23824369</field>
+        </record>
+        <record id='country58' model='brodoonx.country'>
+            <field name='name'>Sri Lanka</field>
+            <field name='population'>21428970</field>
+        </record>
+        <record id='country59' model='brodoonx.country'>
+            <field name='name'>Burkina Faso</field>
+            <field name='population'>20997293</field>
+        </record>
+        <record id='country60' model='brodoonx.country'>
+            <field name='name'>Mali</field>
+            <field name='population'>20346106</field>
+        </record>
+        <record id='country61' model='brodoonx.country'>
+            <field name='name'>Romania</field>
+            <field name='population'>19214608</field>
+        </record>
+        <record id='country62' model='brodoonx.country'>
+            <field name='name'>Malawi</field>
+            <field name='population'>19211425</field>
+        </record>
+        <record id='country63' model='brodoonx.country'>
+            <field name='name'>Chile</field>
+            <field name='population'>19144605</field>
+        </record>
+        <record id='country64' model='brodoonx.country'>
+            <field name='name'>Kazakhstan</field>
+            <field name='population'>18815231</field>
+        </record>
+        <record id='country65' model='brodoonx.country'>
+            <field name='name'>Zambia</field>
+            <field name='population'>18468257</field>
+        </record>
+        <record id='country66' model='brodoonx.country'>
+            <field name='name'>Guatemala</field>
+            <field name='population'>17971382</field>
+        </record>
+        <record id='country67' model='brodoonx.country'>
+            <field name='name'>Ecuador</field>
+            <field name='population'>17688599</field>
+        </record>
+        <record id='country68' model='brodoonx.country'>
+            <field name='name'>Syria</field>
+            <field name='population'>17571053</field>
+        </record>
+        <record id='country69' model='brodoonx.country'>
+            <field name='name'>Netherlands</field>
+            <field name='population'>17141544</field>
+        </record>
+        <record id='country70' model='brodoonx.country'>
+            <field name='name'>Senegal</field>
+            <field name='population'>16816539</field>
+        </record>
+        <record id='country71' model='brodoonx.country'>
+            <field name='name'>Cambodia</field>
+            <field name='population'>16758448</field>
+        </record>
+        <record id='country72' model='brodoonx.country'>
+            <field name='name'>Chad</field>
+            <field name='population'>16502877</field>
+        </record>
+        <record id='country73' model='brodoonx.country'>
+            <field name='name'>Somalia</field>
+            <field name='population'>15965848</field>
+        </record>
+        <record id='country74' model='brodoonx.country'>
+            <field name='name'>Zimbabwe</field>
+            <field name='population'>14899771</field>
+        </record>
+        <record id='country75' model='brodoonx.country'>
+            <field name='name'>Guinea</field>
+            <field name='population'>13191279</field>
+        </record>
+        <record id='country76' model='brodoonx.country'>
+            <field name='name'>Rwanda</field>
+            <field name='population'>13005303</field>
+        </record>
+        <record id='country77' model='brodoonx.country'>
+            <field name='name'>Benin</field>
+            <field name='population'>12175480</field>
+        </record>
+        <record id='country78' model='brodoonx.country'>
+            <field name='name'>Burundi</field>
+            <field name='population'>11948454</field>
+        </record>
+        <record id='country79' model='brodoonx.country'>
+            <field name='name'>Tunisia</field>
+            <field name='population'>11839918</field>
+        </record>
+        <record id='country80' model='brodoonx.country'>
+            <field name='name'>Bolivia</field>
+            <field name='population'>11700207</field>
+        </record>
+        <record id='country81' model='brodoonx.country'>
+            <field name='name'>Belgium</field>
+            <field name='population'>11598451</field>
+        </record>
+        <record id='country82' model='brodoonx.country'>
+            <field name='name'>Haiti</field>
+            <field name='population'>11426356</field>
+        </record>
+        <record id='country83' model='brodoonx.country'>
+            <field name='name'>Cuba</field>
+            <field name='population'>11325391</field>
+        </record>
+        <record id='country84' model='brodoonx.country'>
+            <field name='name'>South Sudan</field>
+            <field name='population'>11216250</field>
+        </record>
+        <record id='country85' model='brodoonx.country'>
+            <field name='name'>Dominican Republic</field>
+            <field name='population'>10866667</field>
+        </record>
+        <record id='country86' model='brodoonx.country'>
+            <field name='name'>Czech Republic (Czechia)</field>
+            <field name='population'>10712481</field>
+        </record>
+        <record id='country87' model='brodoonx.country'>
+            <field name='name'>Greece</field>
+            <field name='population'>10413936</field>
+        </record>
+        <record id='country88' model='brodoonx.country'>
+            <field name='name'>Jordan</field>
+            <field name='population'>10220604</field>
+        </record>
+        <record id='country89' model='brodoonx.country'>
+            <field name='name'>Portugal</field>
+            <field name='population'>10191409</field>
+        </record>
+        <record id='country90' model='brodoonx.country'>
+            <field name='name'>Azerbaijan</field>
+            <field name='population'>10154978</field>
+        </record>
+        <record id='country91' model='brodoonx.country'>
+            <field name='name'>Sweden</field>
+            <field name='population'>10110233</field>
+        </record>
+        <record id='country92' model='brodoonx.country'>
+            <field name='name'>Honduras</field>
+            <field name='population'>9931333</field>
+        </record>
+        <record id='country93' model='brodoonx.country'>
+            <field name='name'>United Arab Emirates</field>
+            <field name='population'>9910892</field>
+        </record>
+        <record id='country94' model='brodoonx.country'>
+            <field name='name'>Hungary</field>
+            <field name='population'>9655983</field>
+        </record>
+        <record id='country95' model='brodoonx.country'>
+            <field name='name'>Tajikistan</field>
+            <field name='population'>9573310</field>
+        </record>
+        <record id='country96' model='brodoonx.country'>
+            <field name='name'>Belarus</field>
+            <field name='population'>9448772</field>
+        </record>
+        <record id='country97' model='brodoonx.country'>
+            <field name='name'>Austria</field>
+            <field name='population'>9015361</field>
+        </record>
+        <record id='country98' model='brodoonx.country'>
+            <field name='name'>Papua New Guinea</field>
+            <field name='population'>8975531</field>
+        </record>
+        <record id='country99' model='brodoonx.country'>
+            <field name='name'>Serbia</field>
+            <field name='population'>8731081</field>
+        </record>
+        <record id='country100' model='brodoonx.country'>
+            <field name='name'>Israel</field>
+            <field name='population'>8678517</field>
+        </record>
+        <record id='country101' model='brodoonx.country'>
+            <field name='name'>Switzerland</field>
+            <field name='population'>8665615</field>
+        </record>
+        <record id='country102' model='brodoonx.country'>
+            <field name='name'>Togo</field>
+            <field name='population'>8310934</field>
+        </record>
+        <record id='country103' model='brodoonx.country'>
+            <field name='name'>Sierra Leone</field>
+            <field name='population'>8004158</field>
+        </record>
+        <record id='country104' model='brodoonx.country'>
+            <field name='name'>Hong Kong</field>
+            <field name='population'>7507523</field>
+        </record>
+        <record id='country105' model='brodoonx.country'>
+            <field name='name'>Laos</field>
+            <field name='population'>7293542</field>
+        </record>
+        <record id='country106' model='brodoonx.country'>
+            <field name='name'>Paraguay</field>
+            <field name='population'>7147553</field>
+        </record>
+        <record id='country107' model='brodoonx.country'>
+            <field name='name'>Bulgaria</field>
+            <field name='population'>6939018</field>
+        </record>
+        <record id='country108' model='brodoonx.country'>
+            <field name='name'>Libya</field>
+            <field name='population'>6887247</field>
+        </record>
+        <record id='country109' model='brodoonx.country'>
+            <field name='name'>Lebanon</field>
+            <field name='population'>6819976</field>
+        </record>
+        <record id='country110' model='brodoonx.country'>
+            <field name='name'>Nicaragua</field>
+            <field name='population'>6638075</field>
+        </record>
+        <record id='country111' model='brodoonx.country'>
+            <field name='name'>Kyrgyzstan</field>
+            <field name='population'>6542426</field>
+        </record>
+        <record id='country112' model='brodoonx.country'>
+            <field name='name'>El Salvador</field>
+            <field name='population'>6491923</field>
+        </record>
+        <record id='country113' model='brodoonx.country'>
+            <field name='name'>Turkmenistan</field>
+            <field name='population'>6046292</field>
+        </record>
+        <record id='country114' model='brodoonx.country'>
+            <field name='name'>Singapore</field>
+            <field name='population'>5858322</field>
+        </record>
+        <record id='country115' model='brodoonx.country'>
+            <field name='name'>Denmark</field>
+            <field name='population'>5795780</field>
+        </record>
+        <record id='country116' model='brodoonx.country'>
+            <field name='name'>Finland</field>
+            <field name='population'>5542237</field>
+        </record>
+        <record id='country117' model='brodoonx.country'>
+            <field name='name'>Congo</field>
+            <field name='population'>5540555</field>
+        </record>
+        <record id='country118' model='brodoonx.country'>
+            <field name='name'>Slovakia</field>
+            <field name='population'>5460109</field>
+        </record>
+        <record id='country119' model='brodoonx.country'>
+            <field name='name'>Norway</field>
+            <field name='population'>5428594</field>
+        </record>
+        <record id='country120' model='brodoonx.country'>
+            <field name='name'>Oman</field>
+            <field name='population'>5128058</field>
+        </record>
+        <record id='country121' model='brodoonx.country'>
+            <field name='name'>State of Palestine</field>
+            <field name='population'>5121112</field>
+        </record>
+        <record id='country122' model='brodoonx.country'>
+            <field name='name'>Costa Rica</field>
+            <field name='population'>5102158</field>
+        </record>
+        <record id='country123' model='brodoonx.country'>
+            <field name='name'>Liberia</field>
+            <field name='population'>5077411</field>
+        </record>
+        <record id='country124' model='brodoonx.country'>
+            <field name='name'>Ireland</field>
+            <field name='population'>4947267</field>
+        </record>
+        <record id='country125' model='brodoonx.country'>
+            <field name='name'>Central African Republic</field>
+            <field name='population'>4843954</field>
+        </record>
+        <record id='country126' model='brodoonx.country'>
+            <field name='name'>New Zealand</field>
+            <field name='population'>4829021</field>
+        </record>
+        <record id='country127' model='brodoonx.country'>
+            <field name='name'>Mauritania</field>
+            <field name='population'>4669775</field>
+        </record>
+        <record id='country128' model='brodoonx.country'>
+            <field name='name'>Panama</field>
+            <field name='population'>4326296</field>
+        </record>
+        <record id='country129' model='brodoonx.country'>
+            <field name='name'>Kuwait</field>
+            <field name='population'>4281320</field>
+        </record>
+        <record id='country130' model='brodoonx.country'>
+            <field name='name'>Croatia</field>
+            <field name='population'>4100719</field>
+        </record>
+        <record id='country131' model='brodoonx.country'>
+            <field name='name'>Moldova</field>
+            <field name='population'>4032294</field>
+        </record>
+        <record id='country132' model='brodoonx.country'>
+            <field name='name'>Georgia</field>
+            <field name='population'>3987805</field>
+        </record>
+        <record id='country133' model='brodoonx.country'>
+            <field name='name'>Eritrea</field>
+            <field name='population'>3554797</field>
+        </record>
+        <record id='country134' model='brodoonx.country'>
+            <field name='name'>Uruguay</field>
+            <field name='population'>3475842</field>
+        </record>
+        <record id='country135' model='brodoonx.country'>
+            <field name='name'>Bosnia and Herzegovina</field>
+            <field name='population'>3277152</field>
+        </record>
+        <record id='country136' model='brodoonx.country'>
+            <field name='name'>Mongolia</field>
+            <field name='population'>3287242</field>
+        </record>
+        <record id='country137' model='brodoonx.country'>
+            <field name='name'>Armenia</field>
+            <field name='population'>2964219</field>
+        </record>
+        <record id='country138' model='brodoonx.country'>
+            <field name='name'>Jamaica</field>
+            <field name='population'>2963429</field>
+        </record>
+        <record id='country139' model='brodoonx.country'>
+            <field name='name'>Qatar</field>
+            <field name='population'>2889284</field>
+        </record>
+        <record id='country140' model='brodoonx.country'>
+            <field name='name'>Albania</field>
+            <field name='population'>2877239</field>
+        </record>
+        <record id='country141' model='brodoonx.country'>
+            <field name='name'>Puerto Rico</field>
+            <field name='population'>2846860</field>
+        </record>
+        <record id='country142' model='brodoonx.country'>
+            <field name='name'>Lithuania</field>
+            <field name='population'>2715340</field>
+        </record>
+        <record id='country143' model='brodoonx.country'>
+            <field name='name'>Namibia</field>
+            <field name='population'>2548663</field>
+        </record>
+        <record id='country144' model='brodoonx.country'>
+            <field name='name'>Gambia</field>
+            <field name='population'>2427782</field>
+        </record>
+        <record id='country145' model='brodoonx.country'>
+            <field name='name'>Botswana</field>
+            <field name='population'>2359585</field>
+        </record>
+        <record id='country146' model='brodoonx.country'>
+            <field name='name'>Gabon</field>
+            <field name='population'>2234448</field>
+        </record>
+        <record id='country147' model='brodoonx.country'>
+            <field name='name'>Lesotho</field>
+            <field name='population'>2145194</field>
+        </record>
+        <record id='country148' model='brodoonx.country'>
+            <field name='name'>North Macedonia</field>
+            <field name='population'>2083359</field>
+        </record>
+        <record id='country149' model='brodoonx.country'>
+            <field name='name'>Slovenia</field>
+            <field name='population'>2078989</field>
+        </record>
+        <record id='country150' model='brodoonx.country'>
+            <field name='name'>Guinea-Bissau</field>
+            <field name='population'>1975718</field>
+        </record>
+        <record id='country151' model='brodoonx.country'>
+            <field name='name'>Latvia</field>
+            <field name='population'>1882408</field>
+        </record>
+        <record id='country152' model='brodoonx.country'>
+            <field name='name'>Bahrain</field>
+            <field name='population'>1711057</field>
+        </record>
+        <record id='country153' model='brodoonx.country'>
+            <field name='name'>Equatorial Guinea</field>
+            <field name='population'>1410419</field>
+        </record>
+        <record id='country154' model='brodoonx.country'>
+            <field name='name'>Trinidad and Tobago</field>
+            <field name='population'>1400283</field>
+        </record>
+        <record id='country155' model='brodoonx.country'>
+            <field name='name'>Estonia</field>
+            <field name='population'>1326693</field>
+        </record>
+        <record id='country156' model='brodoonx.country'>
+            <field name='name'>Timor-Leste</field>
+            <field name='population'>1322667</field>
+        </record>
+        <record id='country157' model='brodoonx.country'>
+            <field name='name'>Mauritius</field>
+            <field name='population'>1272140</field>
+        </record>
+        <record id='country158' model='brodoonx.country'>
+            <field name='name'>Cyprus</field>
+            <field name='population'>1208886</field>
+        </record>
+        <record id='country159' model='brodoonx.country'>
+            <field name='name'>Eswatini</field>
+            <field name='population'>1162233</field>
+        </record>
+        <record id='country160' model='brodoonx.country'>
+            <field name='name'>Djibouti</field>
+            <field name='population'>990447</field>
+        </record>
+        <record id='country161' model='brodoonx.country'>
+            <field name='name'>Fiji</field>
+            <field name='population'>897573</field>
+        </record>
+        <record id='country162' model='brodoonx.country'>
+            <field name='name'>Réunion</field>
+            <field name='population'>896422</field>
+        </record>
+        <record id='country163' model='brodoonx.country'>
+            <field name='name'>Comoros</field>
+            <field name='population'>872695</field>
+        </record>
+        <record id='country164' model='brodoonx.country'>
+            <field name='name'>Guyana</field>
+            <field name='population'>787215</field>
+        </record>
+        <record id='country165' model='brodoonx.country'>
+            <field name='name'>Bhutan</field>
+            <field name='population'>773069</field>
+        </record>
+        <record id='country166' model='brodoonx.country'>
+            <field name='name'>Solomon Islands</field>
+            <field name='population'>689671</field>
+        </record>
+        <record id='country167' model='brodoonx.country'>
+            <field name='name'>Macao</field>
+            <field name='population'>650846</field>
+        </record>
+        <record id='country168' model='brodoonx.country'>
+            <field name='name'>Montenegro</field>
+            <field name='population'>628080</field>
+        </record>
+        <record id='country169' model='brodoonx.country'>
+            <field name='name'>Luxembourg</field>
+            <field name='population'>627704</field>
+        </record>
+        <record id='country170' model='brodoonx.country'>
+            <field name='name'>Western Sahara</field>
+            <field name='population'>599769</field>
+        </record>
+        <record id='country171' model='brodoonx.country'>
+            <field name='name'>Suriname</field>
+            <field name='population'>587541</field>
+        </record>
+        <record id='country172' model='brodoonx.country'>
+            <field name='name'>Cabo Verde</field>
+            <field name='population'>557026</field>
+        </record>
+        <record id='country173' model='brodoonx.country'>
+            <field name='name'>Maldives</field>
+            <field name='population'>542151</field>
+        </record>
+        <record id='country174' model='brodoonx.country'>
+            <field name='name'>Malta</field>
+            <field name='population'>441750</field>
+        </record>
+        <record id='country175' model='brodoonx.country'>
+            <field name='name'>Brunei</field>
+            <field name='population'>438202</field>
+        </record>
+        <record id='country176' model='brodoonx.country'>
+            <field name='name'>Guadeloupe</field>
+            <field name='population'>400136</field>
+        </record>
+        <record id='country177' model='brodoonx.country'>
+            <field name='name'>Belize</field>
+            <field name='population'>398845</field>
+        </record>
+        <record id='country178' model='brodoonx.country'>
+            <field name='name'>Bahamas</field>
+            <field name='population'>393893</field>
+        </record>
+        <record id='country179' model='brodoonx.country'>
+            <field name='name'>Martinique</field>
+            <field name='population'>375213</field>
+        </record>
+        <record id='country180' model='brodoonx.country'>
+            <field name='name'>Iceland</field>
+            <field name='population'>341628</field>
+        </record>
+        <record id='country181' model='brodoonx.country'>
+            <field name='name'>Vanuatu</field>
+            <field name='population'>308337</field>
+        </record>
+        <record id='country182' model='brodoonx.country'>
+            <field name='name'>French Guiana</field>
+            <field name='population'>299958</field>
+        </record>
+        <record id='country183' model='brodoonx.country'>
+            <field name='name'>Barbados</field>
+            <field name='population'>287437</field>
+        </record>
+        <record id='country184' model='brodoonx.country'>
+            <field name='name'>New Caledonia</field>
+            <field name='population'>285972</field>
+        </record>
+        <record id='country185' model='brodoonx.country'>
+            <field name='name'>French Polynesia</field>
+            <field name='population'>281191</field>
+        </record>
+        <record id='country186' model='brodoonx.country'>
+            <field name='name'>Mayotte</field>
+            <field name='population'>273905</field>
+        </record>
+        <record id='country187' model='brodoonx.country'>
+            <field name='name'>Sao Tome And Principe</field>
+            <field name='population'>219844</field>
+        </record>
+        <record id='country188' model='brodoonx.country'>
+            <field name='name'>Samoa</field>
+            <field name='population'>198643</field>
+        </record>
+        <record id='country189' model='brodoonx.country'>
+            <field name='name'>Saint Lucia</field>
+            <field name='population'>183774</field>
+        </record>
+        <record id='country190' model='brodoonx.country'>
+            <field name='name'>Channel Islands</field>
+            <field name='population'>174140</field>
+        </record>
+        <record id='country191' model='brodoonx.country'>
+            <field name='name'>Guam</field>
+            <field name='population'>169031</field>
+        </record>
+        <record id='country192' model='brodoonx.country'>
+            <field name='name'>Curaçao</field>
+            <field name='population'>164211</field>
+        </record>
+        <record id='country193' model='brodoonx.country'>
+            <field name='name'>Kiribati</field>
+            <field name='population'>119760</field>
+        </record>
+        <record id='country194' model='brodoonx.country'>
+            <field name='name'>Micronesia</field>
+            <field name='population'>115231</field>
+        </record>
+        <record id='country195' model='brodoonx.country'>
+            <field name='name'>Grenada</field>
+            <field name='population'>112614</field>
+        </record>
+        <record id='country196' model='brodoonx.country'>
+            <field name='name'>St. Vincent And Grenadines</field>
+            <field name='population'>111002</field>
+        </record>
+        <record id='country197' model='brodoonx.country'>
+            <field name='name'>Aruba</field>
+            <field name='population'>106845</field>
+        </record>
+        <record id='country198' model='brodoonx.country'>
+            <field name='name'>Tonga</field>
+            <field name='population'>105901</field>
+        </record>
+        <record id='country199' model='brodoonx.country'>
+            <field name='name'>U.S. Virgin Islands</field>
+            <field name='population'>104398</field>
+        </record>
+        <record id='country200' model='brodoonx.country'>
+            <field name='name'>Seychelles</field>
+            <field name='population'>98453</field>
+        </record>
+        <record id='country201' model='brodoonx.country'>
+            <field name='name'>Antigua and Barbuda</field>
+            <field name='population'>98069</field>
+        </record>
+        <record id='country202' model='brodoonx.country'>
+            <field name='name'>Isle of Man</field>
+            <field name='population'>85112</field>
+        </record>
+        <record id='country203' model='brodoonx.country'>
+            <field name='name'>Andorra</field>
+            <field name='population'>77287</field>
+        </record>
+        <record id='country204' model='brodoonx.country'>
+            <field name='name'>Dominica</field>
+            <field name='population'>72017</field>
+        </record>
+        <record id='country205' model='brodoonx.country'>
+            <field name='name'>Cayman Islands</field>
+            <field name='population'>65854</field>
+        </record>
+        <record id='country206' model='brodoonx.country'>
+            <field name='name'>Bermuda</field>
+            <field name='population'>62237</field>
+        </record>
+        <record id='country207' model='brodoonx.country'>
+            <field name='name'>Marshall Islands</field>
+            <field name='population'>59259</field>
+        </record>
+        <record id='country208' model='brodoonx.country'>
+            <field name='name'>Northern Mariana Islands</field>
+            <field name='population'>57619</field>
+        </record>
+        <record id='country209' model='brodoonx.country'>
+            <field name='name'>Greenland</field>
+            <field name='population'>56787</field>
+        </record>
+        <record id='country210' model='brodoonx.country'>
+            <field name='name'>American Samoa</field>
+            <field name='population'>55169</field>
+        </record>
+        <record id='country211' model='brodoonx.country'>
+            <field name='name'>Saint Kitts And Nevis</field>
+            <field name='population'>53264</field>
+        </record>
+        <record id='country212' model='brodoonx.country'>
+            <field name='name'>Faeroe Islands</field>
+            <field name='population'>48896</field>
+        </record>
+        <record id='country213' model='brodoonx.country'>
+            <field name='name'>Sint Maarten</field>
+            <field name='population'>42960</field>
+        </record>
+        <record id='country214' model='brodoonx.country'>
+            <field name='name'>Monaco</field>
+            <field name='population'>39290</field>
+        </record>
+        <record id='country215' model='brodoonx.country'>
+            <field name='name'>Turks and Caicos</field>
+            <field name='population'>38806</field>
+        </record>
+        <record id='country216' model='brodoonx.country'>
+            <field name='name'>Saint Martin</field>
+            <field name='population'>38778</field>
+        </record>
+        <record id='country217' model='brodoonx.country'>
+            <field name='name'>Liechtenstein</field>
+            <field name='population'>38147</field>
+        </record>
+        <record id='country218' model='brodoonx.country'>
+            <field name='name'>San Marino</field>
+            <field name='population'>33944</field>
+        </record>
+        <record id='country219' model='brodoonx.country'>
+            <field name='name'>Gibraltar</field>
+            <field name='population'>33689</field>
+        </record>
+        <record id='country220' model='brodoonx.country'>
+            <field name='name'>British Virgin Islands</field>
+            <field name='population'>30266</field>
+        </record>
+        <record id='country221' model='brodoonx.country'>
+            <field name='name'>Caribbean Netherlands</field>
+            <field name='population'>26265</field>
+        </record>
+        <record id='country222' model='brodoonx.country'>
+            <field name='name'>Palau</field>
+            <field name='population'>18109</field>
+        </record>
+        <record id='country223' model='brodoonx.country'>
+            <field name='name'>Cook Islands</field>
+            <field name='population'>17567</field>
+        </record>
+        <record id='country224' model='brodoonx.country'>
+            <field name='name'>Anguilla</field>
+            <field name='population'>15026</field>
+        </record>
+        <record id='country225' model='brodoonx.country'>
+            <field name='name'>Tuvalu</field>
+            <field name='population'>11817</field>
+        </record>
+        <record id='country226' model='brodoonx.country'>
+            <field name='name'>Wallis And Futuna</field>
+            <field name='population'>11203</field>
+        </record>
+        <record id='country227' model='brodoonx.country'>
+            <field name='name'>Nauru</field>
+            <field name='population'>10836</field>
+        </record>
+        <record id='country228' model='brodoonx.country'>
+            <field name='name'>Saint Barthelemy</field>
+            <field name='population'>9882</field>
+        </record>
+        <record id='country229' model='brodoonx.country'>
+            <field name='name'>Saint Helena</field>
+            <field name='population'>6080</field>
+        </record>
+        <record id='country230' model='brodoonx.country'>
+            <field name='name'>Saint Pierre And Miquelon</field>
+            <field name='population'>5789</field>
+        </record>
+        <record id='country231' model='brodoonx.country'>
+            <field name='name'>Montserrat</field>
+            <field name='population'>4993</field>
+        </record>
+        <record id='country232' model='brodoonx.country'>
+            <field name='name'>Falkland Islands</field>
+            <field name='population'>3497</field>
+        </record>
+        <record id='country233' model='brodoonx.country'>
+            <field name='name'>Niue</field>
+            <field name='population'>1628</field>
+        </record>
+        <record id='country234' model='brodoonx.country'>
+            <field name='name'>Tokelau</field>
+            <field name='population'>1360</field>
+        </record>
+        <record id='country235' model='brodoonx.country'>
+            <field name='name'>Holy See</field>
+            <field name='population'>801</field>
+        </record>
+    </data>
+</odoo>

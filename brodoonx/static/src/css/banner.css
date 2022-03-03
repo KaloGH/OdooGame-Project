@@ -1,0 +1,49 @@
+#brodoonx_banner {
+    height: 200px;
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+    align: center;
+}
+
+.btn_newDisc{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    border-radius: 25px;
+    border: 2px solid rgb(230, 230, 230);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+.btn_newDisc span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn_newDisc:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    background: #4264f8;
+    transition: all .35s;
+  }
+  
+  .btn_newDisc:hover{
+    color: #fff;
+  }
+  
+  .btn_newDisc:hover:after{
+    width: 100%;
+  }

@@ -1,0 +1,121 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.discography_wizard_form">
+            <field name="name">Brodoonx Discographies Form</field>
+            <field name="model">brodoonx.discography_wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="previous" type="object" string="Previous" class="btn btn-secondary" states="2"/>
+                        <button name="next" type="object" string="Next" class="btn oe_highlight" states="1"/>
+                        <field name="state" widget="statusbar"/>
+                    </header>
+
+
+                    <group states="1,2">
+                        <separator string="Discography Name"></separator>
+                        <field name="name" attrs="{'readonly':[('state','!=','1')]}"/>
+                    </group>
+                    <group states="1">
+                        <separator string="Discography Info"></separator>
+                        <field name="reputation"/>
+                        <field name="budget"/>
+                        <field name="owner" domain="[('is_player','=',True)]"/>
+                        <field name="country"/>
+
+                    </group>
+                    <notebook states="2">
+                        <page name="singers" string="Singers">
+                            <field name="singers_available">
+                                <kanban>
+                                    <field name="id" />
+                                    <field name="artist" />
+
+                                    <templates>
+                                        <t t-name="kanban-box">
+
+                                            <div t-attf-class="oe_kanban_card o_kanban_record_has_image_fill ">
+                                                <div class="o_kanban_image_fill_left o_kanban_image_full d-none d-md-block" t-attf-style="background-image:url('#{kanban_image('brodoonx.artist_transient', 'avatar', record.id.value, placeholder)}')">
+                                                </div>
+
+
+                                                <div class="oe_kanban_details d-flex flex-column">
+                                                    <a type="open">
+                                                        <h4 class="o_kanban_record_title oe_partner_heading">
+                                                            <field name="artist"/>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <button name="select" type="object" string="Select" class="btn btn-primary" context="{'discography_wizard_context': parent.id}">Select</button>
+                                            </div>
+
+
+                                        </t>
+                                    </templates>
+                                </kanban>
+                            </field>
+                            <field name="singers">
+                                <tree>
+                                    <field name="name" />
+                                    <field name="level" />
+                                </tree>
+                            </field>
+                        </page>
+                        <page name="producers" string="Producers">
+                            <field name="producers_available">
+                                <kanban>
+                                    <field name="id" />
+                                    <field name="artist" />
+
+                                    <templates>
+                                        <t t-name="kanban-box">
+
+                                            <div t-attf-class="oe_kanban_card o_kanban_record_has_image_fill ">
+                                                <div class="o_kanban_image_fill_left o_kanban_image_full d-none d-md-block" t-attf-style="background-image:url('#{kanban_image('brodoonx.artist_transient', 'avatar', record.id.value, placeholder)}')">
+                                                </div>
+
+
+                                                <div class="oe_kanban_details d-flex flex-column">
+                                                    <a type="open">
+                                                        <h4 class="o_kanban_record_title oe_partner_heading">
+                                                            <field name="artist"/>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <button name="select" type="object" string="Select" class="btn btn-primary" context="{'discography_wizard_context': parent.id}">Select</button>
+                                            </div>
+
+
+                                        </t>
+                                    </templates>
+                                </kanban>
+                            </field>
+                            <field name="producers">
+                                <tree>
+                                    <field name="name" />
+                                    <field name="level" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                    <footer>
+                        <button name="create_discography" type="object" string="Create" class="oe_highlight" states="2"/>
+                        <span states="2">or</span>
+                        <button special="cancel" string="Cancel"/>
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="brodoonx.action_discography_wizard" model="ir.actions.act_window">
+            <field name="name">Create Discography Wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">brodoonx.discography_wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="brodoonx.discography_wizard_form"/>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

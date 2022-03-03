@@ -1,0 +1,147 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.artist_list">
+            <field name="name">Brodoonx Artist List</field>
+            <field name="model">brodoonx.artist</field>
+            <field name="arch" type="xml">
+                <tree decoration-warning="level>70" decoration-info="level&lt;40">
+                    <field name="name"/>
+                    <field name="country"/>
+                    <field name="age"/>
+                    <field name="level"/>
+                    <field name="type_artist"/>
+                    <field name="songs_as_prod" widget='many2many_tags'/>
+                    <field name="songs_as_sing" widget='many2many_tags'/>
+                    <field name="discography"/>
+                    <field name="musical_genre_as_prod" widget='many2many_tags'/>
+                    <field name="musical_genre_as_sing" widget='many2many_tags'/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.artist_search">
+            <field name="name">Brodoonx Artist search</field>
+            <field name="model">brodoonx.artist</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="country"/>
+                    <field name="age"/>
+                    <field name="age" string="Min Age" filter_domain="[('age','>=',self)]" />
+
+                    <field name="level"/>
+                    <field name="level" string="Min Level" filter_domain="[('level','>=',self)]" />
+
+                    <field name="type_artist"/>
+                    <field name="songs_as_prod"/>
+                    <field name="songs_as_sing"/>
+                    <field name="discography"/>
+                    <field name="musical_genre_as_prod"/>
+                    <field name="musical_genre_as_sing"/>
+
+                    <filter name="age" string="Older Artists" domain="[('age', '&lt;=', 18)]"/>
+                    <filter name="group_by_country" string="Group By Country" context="{'group_by': 'country'}" />
+
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.artist_form">
+            <field name="name">Brodoonx Artist Form</field>
+            <field name="model">brodoonx.artist</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <field name="image" widget="image" />
+                        <group>
+                            <group>
+                                <separator string="Artist Personal Info"></separator>
+                                <field name="name"/>
+                                <field name="country"/>
+                                <field name="age"/>
+                                <field name="genre" />
+                            </group>
+                            <group>
+                                <separator string="Artist Game Info"></separator>
+                                <field name="level"/>
+                                <field name="type_artist" />
+                                <field name="discography"/>
+                            </group>
+                            <group>
+                                <separator string="Songs and Musical Genres"></separator>
+
+                                <notebook>
+                                    <page string="Songs">
+                                        <field name="songs_as_prod" attrs="{'invisible':[('type_artist','=','sing')]}">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="duration" sum="Total Duration"/>
+                                                <field name="views" sum="Total Views"/>
+                                                <field name="musical_genre" widget='many2many_tags'/>
+                                            </tree>
+                                            <field name="songs_as_sing" attrs="{'invisible':[('type_artist','=','prod')]}">
+                                                <tree>
+                                                    <field name="name"/>
+                                                    <field name="duration" sum="Total Duration"/>
+                                                    <field name="views" sum="Total Views"/>
+                                                    <field name="musical_genre" widget='many2many_tags'/>
+                                                </tree>
+                                            </field>
+                                        </field>
+                                    </page>
+                                    <page string="Musical Genres">
+                                        <field name="musical_genre_as_sing" attrs="{'invisible':[('type_artist','=','prod')]}">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="audience"/>
+                                            </tree>
+                                        </field>
+                                        <field name="musical_genre_as_prod" attrs="{'invisible':[('type_artist','=','sing')]}">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="audience"/>
+                                            </tree>
+                                        </field>
+                                    </page>
+
+                                </notebook>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="brodoonx.artist_kanban" model="ir.ui.view">
+            <field name="name">Brodoonx Artist Kanban</field>
+            <field name="model">brodoonx.artist</field>
+            <field name="arch" type="xml">
+                <kanban default_group_by="type_artist">
+                    <field name="id"></field>
+                    <field name="country"></field>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click o_kanban_record_has_image_fill">
+                                <a type="open">
+                                    <img class="oe_kanban_image" width="200px" alt="UserImage" height="200px" t-att-src="kanban_image('brodoonx.artist','image', record.id.value)" />
+                                </a>
+                                <div t-attf-class="oe_kanban_content">
+                                    <h4>
+                                        <a type="edit">
+                                            <field name="name" />
+                                            Age: <field name="age" />
+                                            Level: <field name="level" />
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+
+</data>
+</odoo>

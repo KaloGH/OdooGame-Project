@@ -1,0 +1,56 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.country_list">
+            <field name="name">Brodoonx Countries</field>
+            <field name="model">brodoonx.country</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="population"/>
+                    <field name="discography_list"/>
+                    <field name="artists_list"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.country_form">
+            <field name="name">Brodoonx Countries Form</field>
+            <field name="model">brodoonx.country</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Country Info"></separator>
+                                <field name="name"/>
+                                <field name="population"/>
+                            </group>
+                            <group>
+                                <notebook>
+                                    <page string="Discographies">
+                                        <field name="discography_list">
+                                            <tree>
+                                                <field name="name" />
+                                                <field name="reputation" />
+                                                <field name="budget" />
+                                            </tree>
+                                        </field>
+                                    </page>
+                                    <page string="Artists">
+                                        <field name="artists_list">
+                                            <tree>
+                                                <field name="name"/>
+                                                <field name="age" />
+                                                <field name="level"/>
+                                            </tree>
+                                        </field>
+                                    </page>
+                                </notebook>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

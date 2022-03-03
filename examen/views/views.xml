@@ -1,0 +1,45 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <!---  [[[[[[[[[[[[[[[[[ ACTIONS ]]]]]]]]]]]]]]]]]]]]] -->
+    
+    <!-- ################ PAQUET ############### -->
+    <record model="ir.actions.act_window" id="examen.action_paquet_window">
+      <field name="name">PAQUETS</field>
+      <field name="res_model">examen.paquet</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- ####################################### -->
+    <!-- ################ VIATGE ############### -->
+    <record model="ir.actions.act_window" id="examen.action_viatge_window">
+      <field name="name">VIATGES</field>
+      <field name="res_model">examen.viatge</field>
+      <field name="view_mode">tree,form</field>
+      <field name="context">{'search_default_group_by_frago': 1}</field>
+
+    </record>
+    <!-- ################ FURGONETA ############### -->
+    <record model="ir.actions.act_window" id="examen.action_furgoneta_window">
+      <field name="name">FURGONETES</field>
+      <field name="res_model">examen.furgoneta</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- Top menu item -->
+
+    <menuitem name="examen" id="examen.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Management" id="examen.menu_1" parent="examen.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Paquets" id="examen.menu_paquets_list" parent="examen.menu_1" action="examen.action_paquet_window"/>
+    <menuitem name="Viatges" id="examen.menu_viatges_list" parent="examen.menu_1" action="examen.action_viatge_window"/>
+    <menuitem name="Furgonetes" id="examen.menu_furgonetes_list" parent="examen.menu_1" action="examen.action_furgoneta_window"/>
+   
+  </data>
+</odoo>

@@ -1,0 +1,96 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="brodoonx.player_list">
+            <field name="name">Brodoonx Players</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <tree >
+                    <field name="name"/>
+                    <field name="email"/>
+                    <field name="user_password" widget='password'/>
+                    <field name="user_discography" widget='many2many_tags'/>
+                    <field name="user_joinDate"/>
+                    <field name="is_premium" />
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="brodoonx.player_search">
+            <field name="name">brodoonx player search</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <filter name="player_partner" string="Is Player" domain="[('is_player','=',True)]" />
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.player_inherit_form">
+            <field name="name">Brodoonx player inherit form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"></field>
+            <field name="arch" type="xml">
+                <field name="vat" position="before">
+                    <field name="is_player"/>
+                </field>
+                <notebook position="inside">
+                    <page string="Player">
+                        <group>
+                            <field name="name"/>
+                            <field name="email"/>
+                            <field name="user_joinDate" />
+                        </group>
+
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="brodoonx.player_form">
+            <field name="name">Brodoonx Players Form</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button string="Generate new Password" icon="fa-magic" name="generate_new_password" type="object"></button>
+                        <button string="Update Join Date to Now" icon="fa-clock-o" name="change_join_date_to_now" type="object"></button>
+                        <button name="show_player_progress" type="object" string="Show Progress" class="oe_highlight"/>
+
+                    </header>
+                    <sheet>
+                        <group>
+                            <separator string="Personal Info"></separator>
+                            <field name="level" />
+                            <field name="name"/>
+                            <field name="email"/>
+                            <field name="user_password" widget='password'/>
+
+                        </group>
+                        <group>
+                            <separator string="More info"></separator>
+                            <field name="is_player" />
+                            <field name="user_discography" widget='many2many_tags'/>
+                            <field name="user_joinDate"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- GRAPH -->
+        <record model="ir.ui.view" id="brodoonx.player_progress_graph">
+            <field name="name">brodoonx.player_progress</field>
+            <field name="model">brodoonx.player_progress</field>
+            <field name="arch" type="xml">
+                <graph string="Player Progress" type="line">
+                    <field name="date_char" type="row"/>
+                    <field name="player" type="col"/>
+                    <field name="name" type="measure"/>
+                </graph>
+            </field>
+        </record>
+    </data>
+</odoo>
