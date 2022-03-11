@@ -1,0 +1,116 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <!-- <record id="exxamen.cancion_tree" model="ir.ui.view">
+      <field name="name">exxamen_cancion.tree</field>
+      <field name="model">exxamen.cancion</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="artista"/>
+          <field name="clientes" />
+          <field name="popularidad" />
+        </tree>
+      </field>
+    </record> -->
+
+    <record id="exxamen.cancion_form" model="ir.ui.view">
+      <field name="name">exxamen_cancion.form</field>
+      <field name="model">exxamen.cancion</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="artista"/>
+              <field name="clientes" />
+              <field name="popularidad" readonly="True" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+
+<!-- VISTA DEL WIZARD -->
+    <record model="ir.ui.view" id="exxamen.song_wizard_view">
+            <field name="name">song.wizard</field>
+            <field name="model">exxamen.song_wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="song"/>
+                        <field name="cliente"/>
+                    </group>
+                    <footer>
+                        <button name="add_song" type="object" string="Add" class="oe_highlight"/>
+
+                        or
+                        <button special="cancel" string="Cancel"/>
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION WIZARD -->
+    <record id="exxamen.action_song_wizard" model="ir.actions.act_window">
+            <field name="name">Lauch song</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">exxamen.song_wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="exxamen.song_wizard_view"/>
+            <field name="target">new</field>
+        </record>
+
+
+    <!-- VISTA HEREDADA DE RES PARTNER PARA iNSERTAR CANCIONES FAVORITAS -->
+            <record model="ir.ui.view" id="exxamen.cancion_inherit_form">
+            <field name="name">Brodoonx song inherit form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"></field>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Song">
+                        <group>
+                            <field name="favouriteSongs" string="Favourite Songs"/>
+                         
+                            <button name="%(exxamen.action_song_wizard)d" type="action" string="Add Song" class="oe_highlight"/>
+
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="exxamen.cancion_action_window">
+      <field name="name">exxamen window</field>
+      <field name="res_model">exxamen.cancion</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+    <!-- Top menu item -->
+
+    <menuitem name="Musica" id="exxamen.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Musica" id="exxamen.menu_1" parent="exxamen.menu_root"/>
+    <!-- <menuitem name="Menu 2" id="examen_segon.menu_2" parent="examen_segon.menu_root"/> -->
+
+    <!-- actions -->
+
+    <menuitem name="List" id="exxamen.menu_1_list" parent="exxamen.menu_1"
+              action="exxamen.cancion_action_window"/>
+    <!-- <menuitem name="Server to list" id="examen_segon" parent="examen_segon.menu_2"
+              action="examen_segon.action_server"/> -->
+
+  </data>
+</odoo>
